@@ -1,0 +1,19 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+/*@import "./utils/extensions";*/
+
+@import "./base/base"; /*fondations du site comme police, norme, box-sizing*/
+@import "./base/typography";
+
+/*components : blocs bem indépendants comme les boutons*/
+@import "./components/buttons"; 
+
+/*layouts : blocs bem réutilisables comme header ou footer*/
+@import "./layouts/header"; 
+@import "./layouts/nav";
+@import "./layouts/container";
+@import "./layouts/form";
+@import "./layouts/footer";
+
+/*pages : blocs qui ne s'appliquent qu'à une seule page*/
+@import "./pages/article";

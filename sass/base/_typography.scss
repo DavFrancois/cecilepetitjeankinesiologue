@@ -1,0 +1,53 @@
+/* Définition des polices personnalisées */
+@font-face {
+    font-family: 'ballpark';
+    src: url('ballw___-webfont.woff2') format('woff2'),
+         url('ballw___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}    
+@font-face {
+    font-family: 'courgette';
+    src: url('../fonts/courgette/Courgette-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'qwigley';
+    src: url('../fonts/qwigley/Qwigley-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: $colour-primary;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.accroche {
+    font-family: serif, Arial, sans-serif;
+    color: $colour-secondary;
+    font-size: 1.7rem;
+    font-weight: 100;
+    line-height: 1;
+    @media all and (max-width: 1024px) {
+        font-size: 1rem;
+    }
+}
+
+h2 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-align:center;
+    color: $colour-secondary;
+    @media all and (max-width: 1024px) {
+        font-size: 1.1rem;
+    }
+
+}

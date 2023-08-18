@@ -1,0 +1,611 @@
+@charset "UTF-8";
+/*@import "./utils/extensions";*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background: url("../images/coquelicot.png") fixed no-repeat;
+  background-position: top 380px right 0px; /*fleur fixe*/
+  background-color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: rgb(5, 5, 5);
+  margin: auto;
+  box-sizing: border-box;
+}
+@media all and (max-width: 1024px) {
+  body {
+    background: url("../images/coquelicot_petit.png") fixed no-repeat;
+    background-position: top 200px right 10px; /*fleur fixe*/
+  }
+}
+
+#bloc_page {
+  text-align: justify;
+}
+@media all and (max-width: 1024px) {
+  #bloc_page {
+    width: auto;
+    padding: 10px 0 10px 0;
+  }
+}
+
+/*fondations du site comme police, norme, box-sizing*/
+/* Définition des polices personnalisées */
+@font-face {
+  font-family: "ballpark";
+  src: url("ballw___-webfont.woff2") format("woff2"), url("ballw___-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "courgette";
+  src: url("../fonts/courgette/Courgette-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "qwigley";
+  src: url("../fonts/qwigley/Qwigley-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: rgb(5, 5, 5);
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.pourquoi {
+  font-family: serif, Arial, sans-serif;
+  color: green;
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1;
+}
+
+/*components : blocs bem indépendants comme les boutons*/
+.btn {
+  padding: 10px;
+  border: 0.1rem solid rgb(75, 83, 84);
+  border-radius: 5px;
+  background: rgb(235, 229, 229);
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(153, 187, 153);
+  color: white;
+}
+@media all and (max-width: 1024px) {
+  .btn {
+    padding: 5px;
+    border: 0.1rem solid rgb(75, 83, 84);
+    border-radius: 5px;
+    background: rgb(235, 229, 229);
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: rgb(153, 187, 153);
+    color: white;
+  }
+}
+
+/*layouts : blocs bem réutilisables comme header ou footer*/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media all and (max-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.header_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+@media all and (max-width: 1024px) {
+  .header_heading {
+    width: 75%;
+    margin-left: 10px;
+  }
+}
+.header_heading_image {
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 4px 4px rgb(75, 83, 84);
+  border-radius: 15px;
+}
+@media all and (max-width: 1024px) {
+  .header_heading_image {
+    width: 80px;
+    height: 80px;
+  }
+}
+.header_heading_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header h1 {
+  font-family: qwigley, serif, arial;
+  font-size: 4rem;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: rgb(75, 83, 84);
+}
+@media all and (max-width: 1024px) {
+  .header h1 {
+    font-family: qwigley, serif, arial;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
+.header h2 {
+  font-family: serif;
+  font-size: 2.3rem;
+  font-style: bold;
+  text-align: center;
+  color: rgb(75, 83, 84);
+}
+@media all and (max-width: 1024px) {
+  .header h2 {
+    font-size: 2rem;
+  }
+}
+
+.header_nav {
+  background-color: rgb(235, 229, 229);
+}
+@media all and (max-width: 1024px) {
+  .header_nav {
+    width: 170px;
+  }
+}
+.header_nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-family: serif;
+}
+@media all and (max-width: 1024px) {
+  .header_nav ul {
+    flex-direction: column;
+  }
+}
+.header_nav a {
+  padding: 0 25px 10px 20px;
+  font-size: 1.3rem;
+  color: rgb(5, 5, 5);
+  line-height: 2em;
+  text-decoration: none;
+  border-radius: 5px 15px 0 0;
+}
+@media all and (max-width: 1024px) {
+  .header_nav a {
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    border-radius: 0;
+  }
+}
+.header_nav a:hover {
+  background-color: rgb(153, 187, 153);
+  padding-top: 10px;
+  cursor: pointer;
+  border-radius: 5px 15px 0 0;
+}
+@media all and (max-width: 1024px) {
+  .header_nav a:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0;
+    background-color: rgb(153, 187, 153);
+  }
+}
+.header_nav-active {
+  background-color: rgb(153, 187, 153);
+  border-radius: 5px 15px 0 0;
+  font-weight: bold;
+}
+@media all and (max-width: 1024px) {
+  .header_nav-active {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+.section_nav {
+  margin-left: 30px;
+  min-width: 200px;
+}
+@media all and (max-width: 1024px) {
+  .section_nav {
+    min-width: 160px;
+  }
+}
+.section_nav p {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: green;
+}
+@media all and (max-width: 1024px) {
+  .section_nav p {
+    font-size: 1.2rem;
+  }
+}
+.section_nav .vignette {
+  margin-bottom: 20px;
+  position: relative;
+}
+.section_nav .vignette .image {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 4px 4px rgb(75, 83, 84);
+  border-radius: 15px;
+}
+@media all and (max-width: 1024px) {
+  .section_nav .vignette .image {
+    width: 120px;
+    height: 120px;
+  }
+}
+.section_nav .vignette .image:hover {
+  box-shadow: 5px 5px 5px rgb(212, 70, 35);
+  cursor: pointer;
+}
+.section_nav .vignette .text {
+  width: 150px;
+  min-height: 20px;
+  bottom: 10px;
+  position: absolute;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: rgba(230, 232, 230, 0.75);
+}
+@media all and (max-width: 1024px) {
+  .section_nav .vignette .text {
+    width: 120px;
+  }
+}
+
+.section_nav-accueil {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin: 30px 100px 0 50px;
+}
+@media all and (max-width: 1024px) {
+  .section_nav-accueil {
+    min-width: 160px;
+  }
+}
+.section_nav-accueil .vignette {
+  position: relative;
+}
+.section_nav-accueil .vignette .image {
+  width: 280px;
+  height: 280px;
+  box-shadow: 0px 4px 4px rgb(75, 83, 84);
+  border-radius: 15px;
+}
+@media all and (max-width: 1024px) {
+  .section_nav-accueil .vignette .image {
+    width: 120px;
+    height: 120px;
+  }
+}
+.section_nav-accueil .vignette .image:hover {
+  box-shadow: 5px 5px 5px rgb(212, 70, 35);
+  cursor: pointer;
+}
+.section_nav-accueil .vignette .text {
+  width: 280px;
+  min-height: 30px;
+  bottom: 10px;
+  position: absolute;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgba(230, 232, 230, 0.75);
+}
+@media all and (max-width: 1024px) {
+  .section_nav-accueil .vignette .text {
+    width: 120px;
+  }
+}
+
+.banniere {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  background-image: url(../images/coquelicot6.jpg);
+  background-size: cover;
+  background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
+}
+.banniere p {
+  padding-top: 120px;
+  color: #fff;
+  text-align: center;
+  font-family: courgette, arial, serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+@media all and (max-width: 1024px) {
+  .banniere {
+    height: 50px;
+  }
+  .banniere p {
+    padding-top: 15px;
+    font-size: 1.2rem;
+  }
+}
+
+.banniere-accueil {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-image: url(../images/coquelicot6.jpg);
+  background-size: cover;
+  background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
+}
+.banniere-accueil p {
+  padding-top: 300px;
+  color: #fff;
+  text-align: center;
+  font-family: courgette, arial, serif;
+  font-weight: 200;
+  font-size: 4rem;
+}
+@media all and (max-width: 1024px) {
+  .banniere-accueil {
+    height: 50px;
+  }
+  .banniere-accueil p {
+    padding-top: 15px;
+    font-size: 1.2rem;
+  }
+}
+
+.pourquoi {
+  margin-top: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(235, 229, 229);
+}
+footer .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+@media all and (max-width: 1024px) {
+  footer .heading {
+    font-family: qwigley, serif, arial;
+    font-size: 2rem;
+    font-weight: 500;
+    min-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+footer .heading h1 {
+  font-family: qwigley, serif, arial;
+  font-size: 3rem;
+  font-weight: 500;
+}
+@media all and (max-width: 1024px) {
+  footer .heading h1 {
+    font-family: qwigley, serif, arial;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+footer .heading h2 {
+  font-family: serif, arial;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+@media all and (max-width: 1024px) {
+  footer .heading h2 {
+    font-size: 0.8rem;
+  }
+}
+footer .heading .btn {
+  font-family: serif, arial;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+@media all and (max-width: 1024px) {
+  footer .heading .btn {
+    font-size: 0.8rem;
+  }
+}
+footer .heading .reseaux img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  vertical-align: middle;
+}
+@media all and (max-width: 1024px) {
+  footer .heading .reseaux img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+  }
+}
+footer .heading .snk {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media all and (max-width: 1024px) {
+  footer .heading .snk {
+    width: 130px;
+  }
+}
+footer .heading .snk p {
+  font-size: 0.9rem;
+  text-align: right;
+  vertical-align: middle;
+}
+@media all and (max-width: 1024px) {
+  footer .heading .snk p {
+    font-size: 0.75rem;
+  }
+}
+footer .heading .snk img {
+  height: 60px;
+  margin-left: 10px;
+  float: right;
+}
+@media all and (max-width: 1024px) {
+  footer .heading .snk img {
+    height: 40px;
+  }
+}
+footer .mentions {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .mentions a {
+  font-size: 0.9rem;
+  color: rgb(75, 83, 84);
+}
+@media all and (max-width: 1024px) {
+  footer .mentions a {
+    font-size: 0.7rem;
+  }
+}
+footer .mentions p {
+  color: rgb(75, 83, 84);
+  font-size: 0.7rem;
+  font-style: italic;
+}
+@media all and (max-width: 1024px) {
+  footer .mentions p {
+    font-size: 0.5rem;
+  }
+}
+
+/*pages : blocs qui ne s'appliquent qu'à une seule page*/
+section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+article {
+  width: 80%;
+  margin: 0px 160px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media all and (max-width: 1024px) {
+  article {
+    margin: 0px 80px 20px 0px;
+  }
+}
+article .impair {
+  padding: 0px 30px 10px 30px;
+  margin-right: 170px;
+  border-radius: 20px;
+  background-color: rgb(194, 212, 200);
+}
+@media all and (max-width: 1024px) {
+  article .impair {
+    margin-right: 70px;
+  }
+}
+article .pair {
+  padding: 0px 30px 10px 30px;
+  margin: 20px 0 20px 120px;
+  background-color: rgb(186, 208, 212);
+}
+@media all and (max-width: 1024px) {
+  article .pair {
+    margin-left: 70px;
+  }
+}
+article h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  text-align: left;
+  color: green;
+}
+@media all and (max-width: 1024px) {
+  article h1 {
+    font-size: 1.1rem;
+  }
+}
+article h2 { /*citations*/
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: courgette, fallinlove, serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: right;
+  color: rgb(238, 63, 40);
+}
+@media all and (max-width: 1024px) {
+  article h2 {
+    font-size: 0.75rem;
+  }
+}
+article p {
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+@media all and (max-width: 1024px) {
+  article p {
+    font-size: 0.6rem;
+    line-height: 1.2em;
+  }
+}
+article li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+@media all and (max-width: 1024px) {
+  article li {
+    font-size: 0.6rem;
+    line-height: 1.2em;
+  }
+}
+article strong {
+  color: rgb(30, 177, 30);
+}/*# sourceMappingURL=stylececile.css.map */

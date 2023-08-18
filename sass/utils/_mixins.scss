@@ -1,0 +1,93 @@
+@mixin box-shadowradius {
+    box-shadow: 0px 4px 4px rgb(75, 83, 84);
+    border-radius: 15px; 
+}
+
+@mixin marquececile($size) {
+    font-family: $stylemarque, serif, arial;
+    font-size: $size;
+    font-weight: 500;
+}
+
+@mixin calendrier($size_calendrier) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: $size_calendrier;
+    color: $colour-secondary;
+    justify-content: center;
+    img {
+        margin-left: 3rem;
+        width: 70px;
+    }
+}
+
+@mixin btn ($padding) {
+    padding: $padding;
+    color: $colour-link;
+    border: 0.1rem solid $colour-link;
+    border-radius: 10px;
+    background: $colour-bggrey;
+    cursor: pointer;
+    &:hover {
+        background: $colour-link;
+        color: white;
+    }
+}
+
+@mixin btn2 ($padding) {
+    padding: $padding;
+    color: $colour-secondary;
+    border: 0.1rem solid $colour-secondary;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 0.8);
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    &:hover {
+        background: $colour-secondary;
+        color: white;
+    }
+}
+
+@mixin figure_article ($figure_side) {
+    float: $figure_side;
+    figcaption {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    @media all and (max-width: 1024px) {
+        width: 2rem;
+    }
+}
+
+@mixin figure_photo ($photo_width) {
+    width: $photo_width;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+@mixin paroles ($parole_size) {
+    font-family: courgette, Arial, sans-serif;
+    font-weight:lighter;
+    list-style-type: none;
+    font-size: $parole_size;
+}
+
+@mixin rendez_vous ($rdv_size) {
+    p {
+        font-size:$rdv_size;
+        color:red;
+        text-decoration: none;
+        a:visited {
+            color:$colour-secondary;
+            text-decoration: none;
+        }
+    }
+    img {
+        margin: -1px;
+        width:$rdv_size*2;
+    }
+}

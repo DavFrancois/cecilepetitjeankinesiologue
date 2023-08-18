@@ -1,0 +1,107 @@
+footer {
+    background-color: $colour-bggrey;
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: 20px;
+        @media all and (max-width: 1024px) {
+            @include marquececile(2rem);
+            min-height: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+    
+        }
+        .cecile_footer {
+            text-decoration: none;
+            color: $colour-primary;
+            @include marquececile(3rem);
+            @media all and (max-width: 1024px) {
+                @include marquececile(1.8rem);
+            }
+        }
+        h2 {
+            font-family: serif, arial;
+            font-size: 1.3rem;
+            font-weight: 300;
+            @media all and (max-width: 1024px) {
+                font-size: 0.8rem;
+            }
+        }
+        .btn {
+            font-family: serif, arial;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            @media all and (max-width: 1024px) {
+                font-size: 0.8rem;
+            }
+        }
+        .reseaux img {
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            vertical-align: middle;
+            @media all and (max-width: 1024px) {
+                height: 30px;
+                width: 30px;
+                margin: 5px;
+            }
+        }
+        .snk {
+            margin-top: 5px;
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @media all and (max-width: 1024px) {
+                width: 130px;
+            }
+            p {
+                font-size: 0.8rem;
+                text-align: right;
+                vertical-align: middle;
+                @media all and (max-width: 1024px) {
+                    font-size: 0.75rem;
+                }
+            }
+            img {
+                height: 40px;
+                margin-left: 10px;
+                float: right;
+                @media all and (max-width: 1024px) {
+                    height: 40px;
+                }
+            }
+        }
+    }
+    .mentions {
+        /*margin-bottom: 2px;*/
+        width:40%;
+        margin:auto;
+        padding-top:10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content:space-between;
+        a {
+            font-size: 0.8rem;
+            a:visited {
+                color:black;
+                text-decoration: none;
+            }
+            @media all and (max-width: 1024px) {
+                font-size: 0.7rem;
+            }
+        }
+        p {
+            color:$colour-shadow;
+            font-size: 0.8rem;
+            font-style: italic;
+            @media all and (max-width: 1024px) {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}

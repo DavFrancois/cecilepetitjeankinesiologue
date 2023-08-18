@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @media all and (max-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+    }
+    &_heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:2px;
+        margin-right: -1rem;
+        margin-bottom: 5px;
+        @media all and (max-width: 1024px) {
+            width: 90%;
+            margin-left: 10px;
+            margin-right: 0;
+        }
+        &_image {
+            width: 90px;
+            height: 90px;
+            @include box-shadowradius;
+            @media all and (max-width: 1024px) {
+                width: 90px;
+                height: 90px;
+            }
+        }
+        &_calendrier {
+            margin-left: -6rem;
+            width: 70px;
+            @include box-shadowradius;
+            @media all and (max-width: 1024px) {
+                width: 60px;
+                margin-left: -1rem;
+            }
+
+        }
+        &_name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    h1 {
+        @include marquececile(4rem);
+        font-style: normal;
+        text-align: center;
+        color: $colour-shadow;
+        @media all and (max-width: 1024px) {
+            @include marquececile(2.5rem);
+        }
+        }
+    h2 {
+        font-family: serif;
+        font-size: 2.3rem;
+        font-style: bold;
+        text-align: center;
+        color: $colour-shadow;
+        @media all and (max-width: 1024px) {
+            font-size: 1.8rem;
+        }
+    }
+}

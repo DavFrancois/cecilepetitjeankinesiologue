@@ -1,0 +1,26 @@
+.btn {
+    @include btn (10px);
+    @media all and (max-width: 1024px) {
+        @include btn (5px);
+    }
+}
+
+.btn2 {
+    @include btn2 (5px 10px 5px 10px);
+    position:relative;
+    top: 20px; right: -50px;
+
+    @media all and (max-width: 1024px) {
+        font-size: 0.7rem;
+        /*@include btn (5px 10px 5px 10px);*/
+    }
+}
+
+.btn3 {
+    @include btn (50px);
+    color: red;
+        @media all and (max-width: 1024px) {
+        @include btn (5px);
+    }
+
+}

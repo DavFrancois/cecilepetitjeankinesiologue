@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    background: url("../images/coquelicot.png") fixed no-repeat;
+    background-position: top 280px right 0px; /*fleur fixe*/
+    background-color: $colour-bg;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: $colour-primary;
+    margin:auto;
+    box-sizing: border-box;
+    @media all and (max-width: 1024px) {
+        background: url("../images/coquelicot_petit.png") fixed no-repeat;
+        background-position: top 200px right 10px; /*fleur fixe*/
+    }
+    .gotoTop { /*permet de positionner le container nav sur tout le body*/
+        z-index: 9999;  /*permet de positionner au-dessus de tous les autres élémnts*/
+        position: absolute; 
+        top: 0;
+        right: 1rem;
+        bottom: 0;  /* occupe toute la hauteur du référent */
+        pointer-events: none; /* ne prend pas l'événement du pointer */
+        a {
+            display: block;  /* pour prise en compte sticky */
+            position: sticky;  /* positionnement « adhérent » */
+            top: 75vh;    /* position d'affichage fixe à 40% de la hauteur d'affichage */
+            margin-top: 130vh;   /* pour masquer verticalement au départ : laisse 100% de l'affichage*/
+            font-size: 0.9rem;   /* pour bien le voir */
+            font-weight: 800;
+            padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+            color: $colour-strong;
+            text-align: center;
+            pointer-events: auto; /* reprend l'événement du pointer */
+            border: 0.1rem solid $colour-bggrey;
+            border-radius: 5px;
+            background: $colour-bggrey;
+            text-decoration: none;
+        }
+    }
+}
+
+#bloc_page {
+    text-align: justify;
+    @media all and (max-width: 1024px) {
+        width: auto;
+        padding: 10px 0 10px 0;
+    }
+}
