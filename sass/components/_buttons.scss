@@ -22,5 +22,16 @@
         @media all and (max-width: 1024px) {
         @include btn (5px);
     }
-
 }
+
+.btn4 {
+    @include btn2 (5px 5px 5px 5px);
+    position:center;
+    font-size:1rem;
+    text-align: center;
+    @media all and (max-width: 1024px) {
+        font-size: 0.7rem;
+        /*@include btn (5px 10px 5px 10px);*/
+    }
+}
+

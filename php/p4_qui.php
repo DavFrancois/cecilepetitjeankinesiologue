@@ -66,10 +66,7 @@
                     
         <?php include('footer.php'); ?>
     </div>
-    <!-- lien retour haut de page -->
-    <nav class="gotoTop">
-        <a href="#">HAUT</br>DE</br>PAGE</a>
-    </nav>
-	</body>
+    <?php include('gototop.php'); ?>
+</body>
 </html>
 

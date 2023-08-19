@@ -18,6 +18,8 @@ body {
     @media all and (max-width: 1024px) {
         background: url("../images/coquelicot_petit.png") fixed no-repeat;
         background-position: top 200px right 10px; /*fleur fixe*/
+        background-color: $colour-bg;
+
     }
     .gotoTop { /*permet de positionner le container nav sur tout le body*/
         z-index: 9999;  /*permet de positionner au-dessus de tous les autres élémnts*/
@@ -29,7 +31,7 @@ body {
         a {
             display: block;  /* pour prise en compte sticky */
             position: sticky;  /* positionnement « adhérent » */
-            top: 75vh;    /* position d'affichage fixe à 40% de la hauteur d'affichage */
+            top: 65vh;    /* position d'affichage fixe à 40% de la hauteur d'affichage */
             margin-top: 130vh;   /* pour masquer verticalement au départ : laisse 100% de l'affichage*/
             font-size: 0.9rem;   /* pour bien le voir */
             font-weight: 800;

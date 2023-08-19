@@ -7,19 +7,18 @@ footer {
         flex-wrap: wrap;
         margin-left: 60px;
         margin-right: 20px;
-        @media all and (max-width: 1024px) {
-            @include marquececile(2rem);
-            min-height: 50px;
+        @media all and (max-width: 1100px) {
             margin-left: 20px;
-            margin-right: 20px;
-    
         }
         .cecile_footer {
             text-decoration: none;
             color: $colour-primary;
             @include marquececile(3rem);
+            @media all and (min-width:1024px) and (max-width: 1100px) {
+                @include marquececile(2.5rem);
+            }
             @media all and (max-width: 1024px) {
-                @include marquececile(1.8rem);
+                @include marquececile(2rem);
             }
         }
         h2 {
@@ -27,7 +26,8 @@ footer {
             font-size: 1.3rem;
             font-weight: 300;
             @media all and (max-width: 1024px) {
-                font-size: 0.8rem;
+                padding-top: 5px;
+                font-size: 1.2rem;
             }
         }
         .btn {
@@ -79,12 +79,9 @@ footer {
     }
     .mentions {
         /*margin-bottom: 2px;*/
-        width:40%;
-        margin:auto;
-        padding-top:10px;
         padding-bottom: 10px;
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
         a {
             font-size: 0.8rem;
             a:visited {
@@ -96,11 +93,12 @@ footer {
             }
         }
         p {
+            margin-left:10px;
             color:$colour-shadow;
             font-size: 0.8rem;
             font-style: italic;
             @media all and (max-width: 1024px) {
-                font-size: 0.5rem;
+                font-size: 0.7rem;
             }
         }
     }

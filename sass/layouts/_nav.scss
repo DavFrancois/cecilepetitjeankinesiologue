@@ -1,7 +1,7 @@
 .header_nav {
     background-color: $colour-bggrey;
     @media all and (max-width: 1024px) {
-        width: 160px;
+        width: 150px;
         margin-right: 0px;
     }
     ul {
@@ -24,8 +24,8 @@
         border-radius: 5px 15px 0 0;
         @media all and (max-width: 1024px) {
             flex-direction: column;
-            font-size: 1rem;
-            line-height: 1.3rem;
+            font-size: 0.9rem;
+            line-height: 1.2rem;
             border-radius: 0;
         }
         &:hover {
@@ -107,7 +107,11 @@
     grid-gap: 40px;
     margin: 30px 100px 30px 50px;
     @media all and (max-width: 1024px) {
+        margin: 0 100px 30px 50px;
         min-width: 160px;
+    }
+    h1 {
+        margin-top: 35%;
     }
     .vignette {
         position: relative;
@@ -148,7 +152,7 @@
             width: 100%;
             text-align: left;
             border-radius: 15px;
-            font-size: 1.1em;
+            font-size: 1em;
             font-weight: 600;
             line-height: 2rem;
             color: white;
@@ -166,6 +170,7 @@
         &:hover {
             .vignette_text--hover {
                 display: flex;
+                flex-direction: column;
                 cursor:auto;
             }
         }

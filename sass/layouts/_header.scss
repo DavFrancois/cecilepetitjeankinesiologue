@@ -7,6 +7,7 @@
         flex-direction: row;
     }
     &_heading {
+        width: 95%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -16,25 +17,23 @@
         margin-bottom: 5px;
         @media all and (max-width: 1024px) {
             width: 90%;
-            margin-left: 10px;
-            margin-right: 0;
+            margin-left: 5px;
+            margin-right: 10px;
         }
         &_image {
             width: 90px;
             height: 90px;
             @include box-shadowradius;
             @media all and (max-width: 1024px) {
-                width: 90px;
-                height: 90px;
+                width: 85px;
+                height: 85px;
             }
         }
         &_calendrier {
-            margin-left: -6rem;
             width: 70px;
             @include box-shadowradius;
             @media all and (max-width: 1024px) {
                 width: 60px;
-                margin-left: -1rem;
             }
 
         }
@@ -51,17 +50,18 @@
         text-align: center;
         color: $colour-shadow;
         @media all and (max-width: 1024px) {
-            @include marquececile(2.5rem);
+            @include marquececile(2.6rem);
         }
         }
     h2 {
         font-family: serif;
+        padding-top: 0;
         font-size: 2.3rem;
         font-style: bold;
         text-align: center;
         color: $colour-shadow;
         @media all and (max-width: 1024px) {
-            font-size: 1.8rem;
+            font-size: 1.7rem;
         }
     }
 }

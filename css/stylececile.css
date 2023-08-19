@@ -22,6 +22,7 @@ body {
   body {
     background: url("../images/coquelicot_petit.png") fixed no-repeat;
     background-position: top 200px right 10px; /*fleur fixe*/
+    background-color: rgb(240, 240, 240);
   }
 }
 body .gotoTop { /*permet de positionner le container nav sur tout le body*/
@@ -35,7 +36,7 @@ body .gotoTop { /*permet de positionner le container nav sur tout le body*/
 body .gotoTop a {
   display: block; /* pour prise en compte sticky */
   position: sticky; /* positionnement « adhérent » */
-  top: 75vh; /* position d'affichage fixe à 40% de la hauteur d'affichage */
+  top: 65vh; /* position d'affichage fixe à 40% de la hauteur d'affichage */
   margin-top: 130vh; /* pour masquer verticalement au départ : laisse 100% de l'affichage*/
   font-size: 0.9rem; /* pour bien le voir */
   font-weight: 800;
@@ -115,6 +116,11 @@ h2 {
   }
 }
 
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
 /*components : blocs bem indépendants comme les boutons*/
 .btn {
   padding: 10px;
@@ -150,7 +156,6 @@ h2 {
   border-radius: 10px;
   background: rgba(226, 226, 226, 0.8);
   text-decoration: none;
-  font-size: 1rem;
   cursor: pointer;
   position: relative;
   top: 20px;
@@ -195,6 +200,29 @@ h2 {
   }
 }
 
+.btn4 {
+  padding: 5px 5px 5px 5px;
+  color: green;
+  border: 0.1rem solid green;
+  border-radius: 10px;
+  background: rgba(226, 226, 226, 0.8);
+  text-decoration: none;
+  cursor: pointer;
+  position: center;
+  font-size: 1rem;
+  text-align: center;
+}
+.btn4:hover {
+  background: green;
+  color: white;
+}
+@media all and (max-width: 1024px) {
+  .btn4 {
+    font-size: 0.7rem;
+    /*@include btn (5px 10px 5px 10px);*/
+  }
+}
+
 /*layouts : blocs bem réutilisables comme header ou footer*/
 .header {
   display: flex;
@@ -208,6 +236,7 @@ h2 {
   }
 }
 .header_heading {
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -219,8 +248,8 @@ h2 {
 @media all and (max-width: 1024px) {
   .header_heading {
     width: 90%;
-    margin-left: 10px;
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 10px;
   }
 }
 .header_heading_image {
@@ -231,12 +260,11 @@ h2 {
 }
 @media all and (max-width: 1024px) {
   .header_heading_image {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
   }
 }
 .header_heading_calendrier {
-  margin-left: -6rem;
   width: 70px;
   box-shadow: 0px 4px 4px rgb(75, 83, 84);
   border-radius: 15px;
@@ -244,7 +272,6 @@ h2 {
 @media all and (max-width: 1024px) {
   .header_heading_calendrier {
     width: 60px;
-    margin-left: -1rem;
   }
 }
 .header_heading_name {
@@ -264,12 +291,13 @@ h2 {
 @media all and (max-width: 1024px) {
   .header h1 {
     font-family: qwigley, serif, arial;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 500;
   }
 }
 .header h2 {
   font-family: serif;
+  padding-top: 0;
   font-size: 2.3rem;
   font-style: bold;
   text-align: center;
@@ -277,7 +305,7 @@ h2 {
 }
 @media all and (max-width: 1024px) {
   .header h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -286,7 +314,7 @@ h2 {
 }
 @media all and (max-width: 1024px) {
   .header_nav {
-    width: 160px;
+    width: 150px;
     margin-right: 0px;
   }
 }
@@ -314,8 +342,8 @@ h2 {
 @media all and (max-width: 1024px) {
   .header_nav a {
     flex-direction: column;
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     border-radius: 0;
   }
 }
@@ -411,8 +439,12 @@ h2 {
 }
 @media all and (max-width: 1024px) {
   .section_nav-accueil {
+    margin: 0 100px 30px 50px;
     min-width: 160px;
   }
+}
+.section_nav-accueil h1 {
+  margin-top: 35%;
 }
 .section_nav-accueil .vignette {
   position: relative;
@@ -459,7 +491,7 @@ h2 {
   width: 100%;
   text-align: left;
   border-radius: 15px;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   line-height: 2rem;
   color: white;
@@ -478,6 +510,7 @@ h2 {
 }
 .section_nav-accueil .vignette:hover .vignette_text--hover {
   display: flex;
+  flex-direction: column;
   cursor: auto;
 }
 
@@ -540,11 +573,11 @@ h2 {
 }
 @media all and (max-width: 1024px) {
   .banniere-accueil {
-    height: 50px;
+    height: 100px;
   }
   .banniere-accueil p {
-    padding-top: 15px;
-    font-size: 1.2rem;
+    padding-top: 50px;
+    font-size: 1.3rem;
   }
 }
 
@@ -616,14 +649,9 @@ footer .heading {
   margin-left: 60px;
   margin-right: 20px;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1100px) {
   footer .heading {
-    font-family: qwigley, serif, arial;
-    font-size: 2rem;
-    font-weight: 500;
-    min-height: 50px;
     margin-left: 20px;
-    margin-right: 20px;
   }
 }
 footer .heading .cecile_footer {
@@ -633,10 +661,17 @@ footer .heading .cecile_footer {
   font-size: 3rem;
   font-weight: 500;
 }
+@media all and (min-width: 1024px) and (max-width: 1100px) {
+  footer .heading .cecile_footer {
+    font-family: qwigley, serif, arial;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+}
 @media all and (max-width: 1024px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 }
@@ -647,7 +682,8 @@ footer .heading h2 {
 }
 @media all and (max-width: 1024px) {
   footer .heading h2 {
-    font-size: 0.8rem;
+    padding-top: 5px;
+    font-size: 1.2rem;
   }
 }
 footer .heading .btn {
@@ -708,12 +744,9 @@ footer .heading .snk img {
 }
 footer .mentions {
   /*margin-bottom: 2px;*/
-  width: 40%;
-  margin: auto;
-  padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 footer .mentions a {
   font-size: 0.8rem;
@@ -728,13 +761,14 @@ footer .mentions a a:visited {
   }
 }
 footer .mentions p {
+  margin-left: 10px;
   color: rgb(75, 83, 84);
   font-size: 0.8rem;
   font-style: italic;
 }
 @media all and (max-width: 1024px) {
   footer .mentions p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -746,15 +780,15 @@ section {
 }
 
 article {
-  width: 80%;
-  margin: 10px 160px 20px 0px;
+  width: 85%;
+  margin: 10px 120px 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media all and (max-width: 1024px) {
   article {
-    margin: 0px 80px 20px 0px;
+    margin: 0px 70px 20px 0px;
   }
 }
 article .accueil {
@@ -762,24 +796,26 @@ article .accueil {
 }
 article .impair {
   padding: 0px 20px 40px 30px;
+  margin-top: 20px;
   margin-right: 170px;
   border-radius: 20px;
   background-color: rgb(194, 212, 200);
 }
 @media all and (max-width: 1024px) {
   article .impair {
-    margin-right: 70px;
+    margin-right: 75px;
   }
 }
 article .pair {
   padding: 0px 20px 40px 30px;
   border-radius: 20px;
-  margin: 20px 0 20px 120px;
+  margin-top: 20px;
+  margin-left: 120px;
   background-color: rgb(186, 208, 212);
 }
 @media all and (max-width: 1024px) {
   article .pair {
-    margin-left: 70px;
+    margin-left: 75px;
   }
 }
 article .centre {
@@ -800,16 +836,18 @@ article .figure_left figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
-@media all and (max-width: 1024px) {
-  article .figure_left {
-    width: 2rem;
-  }
-}
 article .figure_left .figure_photo {
   width: 200px;
   margin-top: 10px;
   border-radius: 15px;
   margin-right: 20px;
+}
+@media all and (max-width: 1024px) {
+  article .figure_left .figure_photo {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
 }
 article .figure_right {
   float: right;
@@ -818,13 +856,8 @@ article .figure_right figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
-@media all and (max-width: 1024px) {
-  article .figure_right {
-    width: 2rem;
-  }
-}
 article .figure_right .figure_photo {
-  width: 180px;
+  width: 150px;
   margin-top: 10px;
   border-radius: 15px;
   margin-left: 15px;
@@ -836,16 +869,18 @@ article .figure_right_large figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
-@media all and (max-width: 1024px) {
-  article .figure_right_large {
-    width: 2rem;
-  }
-}
 article .figure_right_large .figure_photo {
   width: 350px;
   margin-top: 10px;
   border-radius: 15px;
   margin-left: 15px;
+}
+@media all and (max-width: 1024px) {
+  article .figure_right_large .figure_photo {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
 }
 article .figure_right_large2 {
   float: right;
@@ -854,16 +889,18 @@ article .figure_right_large2 figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
-@media all and (max-width: 1024px) {
-  article .figure_right_large2 {
-    width: 2rem;
-  }
-}
 article .figure_right_large2 .figure_photo {
   width: 300px;
   margin-top: 10px;
   border-radius: 15px;
   margin-left: 15px;
+}
+@media all and (max-width: 1024px) {
+  article .figure_right_large2 .figure_photo {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
 }
 article .paroles_1 {
   font-family: courgette, Arial, sans-serif;
@@ -937,7 +974,8 @@ article p {
 }
 @media all and (max-width: 1024px) {
   article p {
-    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
     line-height: 1.2em;
   }
 }
@@ -949,7 +987,7 @@ article li {
 }
 @media all and (max-width: 1024px) {
   article li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 1.2em;
   }
 }
@@ -957,8 +995,8 @@ article strong {
   color: rgb(30, 177, 30);
 }
 article .qui {
-  margin: 20px 20px 20px 20px;
-  padding: 20px 20px 10px 30px;
+  margin: 0 20px 20px 20px;
+  padding: 0 20px 10px 30px;
   border-radius: 20px;
   background-color: rgb(196, 228, 193);
 }
@@ -982,7 +1020,6 @@ article .qui h3 {
   }
 }
 article .qui h4 {
-  margin-top: 1rem;
   margin-right: 80px;
   text-align: right;
   font-family: qwigley, serif, arial;
@@ -991,7 +1028,7 @@ article .qui h4 {
 }
 @media all and (max-width: 1024px) {
   article .qui h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 article .qui a {
@@ -1033,12 +1070,12 @@ article .localisation__lieu {
   margin-right: 4rem;
 }
 article .localisation iframe {
-  width: 100%;
+  max-width: 400px;
   height: 450px;
 }
 @media all and (max-width: 1024px) {
   article .localisation iframe {
-    width: 200px;
+    max-width: 250px;
     height: 300px;
   }
 }
@@ -1114,6 +1151,21 @@ article .partenaires li {
 .calendrier img {
   margin: -1px;
   width: 4.6rem;
+}
+@media all and (max-width: 1024px) {
+  .calendrier p {
+    font-size: 1.8rem;
+    color: red;
+    text-decoration: none;
+  }
+  .calendrier p a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  .calendrier img {
+    margin: -1px;
+    width: 3.6rem;
+  }
 }
 
 /*# sourceMappingURL=stylececile.css.map */
