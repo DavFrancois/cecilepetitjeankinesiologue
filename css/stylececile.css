@@ -21,7 +21,7 @@ body {
 @media all and (max-width: 1024px) {
   body {
     background: url("../images/coquelicot_petit.png") fixed no-repeat;
-    background-position: top 200px right 10px; /*fleur fixe*/
+    background-position: top 300px right 10px; /*fleur fixe*/
     background-color: rgb(240, 240, 240);
   }
 }
@@ -168,7 +168,27 @@ em {
 @media all and (max-width: 1024px) {
   .btn2 {
     font-size: 0.7rem;
+    right: 0;
     /*@include btn (5px 10px 5px 10px);*/
+  }
+}
+@media all and (max-width: 680px) {
+  .btn2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+    right: 0;
+    padding: 5px 5px 5px 5px;
+    color: green;
+    border: 0.1rem solid green;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 0.8);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    background: green;
+    color: white;
   }
 }
 
@@ -585,6 +605,16 @@ em {
   margin-top: 15px;
   text-align: center;
 }
+@media all and (min-width: 680px) and (max-width: 1024px) {
+  .accroche {
+    margin-top: 15px;
+  }
+}
+@media all and (max-width: 680px) {
+  .accroche {
+    margin-top: 0px;
+  }
+}
 
 .form {
   width: 60%;
@@ -654,6 +684,12 @@ footer .heading {
     margin-left: 20px;
   }
 }
+@media all and (max-width: 730px) {
+  footer .heading {
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}
 footer .heading .cecile_footer {
   text-decoration: none;
   color: rgb(5, 5, 5);
@@ -661,7 +697,7 @@ footer .heading .cecile_footer {
   font-size: 3rem;
   font-weight: 500;
 }
-@media all and (min-width: 1024px) and (max-width: 1100px) {
+@media all and (max-width: 1100px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
     font-size: 2.5rem;
@@ -686,6 +722,13 @@ footer .heading h2 {
     font-size: 1.2rem;
   }
 }
+@media all and (max-width: 730px) {
+  footer .heading h2 {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 footer .heading .btn {
   font-family: serif, arial;
   font-size: 1rem;
@@ -695,6 +738,11 @@ footer .heading .btn {
 @media all and (max-width: 1024px) {
   footer .heading .btn {
     font-size: 0.8rem;
+  }
+}
+@media all and (max-width: 730px) {
+  footer .heading .btn {
+    margin-right: 10px;
   }
 }
 footer .heading .reseaux img {
@@ -708,6 +756,12 @@ footer .heading .reseaux img {
     height: 30px;
     width: 30px;
     margin: 5px;
+  }
+}
+@media all and (max-width: 730px) {
+  footer .heading .reseaux img {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 footer .heading .snk {
@@ -732,10 +786,18 @@ footer .heading .snk p {
     font-size: 0.75rem;
   }
 }
+@media all and (max-width: 730px) {
+  footer .heading .snk p {
+    display: none;
+  }
+}
 footer .heading .snk img {
   height: 40px;
   margin-left: 10px;
   float: right;
+  /*@media all and (max-width: 730px) {
+      height: 30px;
+  }*/
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk img {
@@ -776,12 +838,11 @@ footer .mentions p {
 section {
   display: flex;
   flex-direction: row;
-  margin-top: 15px;
 }
 
 article {
   width: 85%;
-  margin: 10px 120px 20px 0px;
+  margin: 0 120px 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -806,6 +867,11 @@ article .impair {
     margin-right: 75px;
   }
 }
+@media all and (max-width: 680px) {
+  article .impair {
+    margin: 10px 0 0 0;
+  }
+}
 article .pair {
   padding: 0px 20px 40px 30px;
   border-radius: 20px;
@@ -816,6 +882,11 @@ article .pair {
 @media all and (max-width: 1024px) {
   article .pair {
     margin-left: 75px;
+  }
+}
+@media all and (max-width: 680px) {
+  article .pair {
+    margin: 10px 0 0 0;
   }
 }
 article .centre {
@@ -835,6 +906,11 @@ article .figure_left {
 article .figure_left figcaption {
   font-size: 0.7rem;
   text-align: center;
+}
+@media all and (max-width: 680px) {
+  article .figure_left {
+    float: none;
+  }
 }
 article .figure_left .figure_photo {
   width: 200px;
@@ -856,6 +932,11 @@ article .figure_right figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
+@media all and (max-width: 680px) {
+  article .figure_right {
+    float: none;
+  }
+}
 article .figure_right .figure_photo {
   width: 150px;
   margin-top: 10px;
@@ -868,6 +949,11 @@ article .figure_right_large {
 article .figure_right_large figcaption {
   font-size: 0.7rem;
   text-align: center;
+}
+@media all and (max-width: 680px) {
+  article .figure_right_large {
+    float: none;
+  }
 }
 article .figure_right_large .figure_photo {
   width: 350px;
@@ -889,6 +975,11 @@ article .figure_right_large2 figcaption {
   font-size: 0.7rem;
   text-align: center;
 }
+@media all and (max-width: 680px) {
+  article .figure_right_large2 {
+    float: none;
+  }
+}
 article .figure_right_large2 .figure_photo {
   width: 300px;
   margin-top: 10px;
@@ -898,6 +989,13 @@ article .figure_right_large2 .figure_photo {
 @media all and (max-width: 1024px) {
   article .figure_right_large2 .figure_photo {
     width: 200px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+}
+@media all and (max-width: 680px) {
+  article .figure_right_large2 .figure_photo {
+    width: 150px;
     margin-top: 10px;
     border-radius: 15px;
   }
@@ -912,6 +1010,11 @@ article .paroles_1 {
 @media all and (max-width: 1024px) {
   article .paroles_1 {
     font-size: 0.7rem;
+  }
+}
+@media all and (max-width: 680px) {
+  article .paroles_1 {
+    font-size: 0.6rem;
   }
 }
 article .paroles_2 {
@@ -936,7 +1039,12 @@ article h1 {
 }
 @media all and (max-width: 1024px) {
   article h1 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+  }
+}
+@media all and (max-width: 680px) {
+  article h1 {
+    font-size: 0.8rem;
   }
 }
 article h2 { /*citations*/
@@ -950,7 +1058,14 @@ article h2 { /*citations*/
 }
 @media all and (max-width: 1024px) {
   article h2 {
+    margin-top: 0px;
     font-size: 1.1rem;
+  }
+}
+@media all and (max-width: 680px) {
+  article h2 {
+    margin-top: 0px;
+    font-size: 0.8rem;
   }
 }
 article h3 {
@@ -979,16 +1094,28 @@ article p {
     line-height: 1.2em;
   }
 }
+@media all and (max-width: 680px) {
+  article p {
+    font-size: 0.7rem;
+  }
+}
 article li {
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 0.5rem;
 }
 @media all and (max-width: 1024px) {
   article li {
     font-size: 0.8rem;
+    margin-left: 0.5rem;
     line-height: 1.2em;
+  }
+}
+@media all and (max-width: 680px) {
+  article li {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
   }
 }
 article strong {

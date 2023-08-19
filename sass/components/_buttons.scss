@@ -9,11 +9,19 @@
     @include btn2 (5px 10px 5px 10px);
     position:relative;
     top: 20px; right: -50px;
-
     @media all and (max-width: 1024px) {
         font-size: 0.7rem;
+        right: 0;
         /*@include btn (5px 10px 5px 10px);*/
     }
+    @media all and (max-width: 680px) {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.6rem;
+        right: 0;
+        @include btn2 (5px 5px 5px 5px);
+    }
+
 }
 
 .btn3 {

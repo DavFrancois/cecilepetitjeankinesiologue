@@ -48,4 +48,11 @@
 .accroche {
     margin-top: 15px;
     text-align: center;
+    @media all and (min-width: 680px) and (max-width: 1024px) {
+        margin-top: 15px;
+    }
+    @media all and (max-width: 680px) {
+        margin-top: 0px;
+    }
+
 }

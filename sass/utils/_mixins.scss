@@ -57,6 +57,9 @@
         font-size: 0.7rem;
         text-align: center;
     }
+    @media all and (max-width: 680px) {
+        float:none;
+    }
 }
 
 @mixin figure_photo ($photo_width) {
