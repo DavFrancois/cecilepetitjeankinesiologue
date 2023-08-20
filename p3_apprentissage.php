@@ -11,9 +11,9 @@
                 <?php include('header.php'); ?>
                 <nav class="header_nav">
                     <ul>
-                        <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                        <li><a href="index.html" title="Accueil">Accueil</a></li>
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
-                        <li class="header_nav-active"><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
+                        <li class="header_nav-active"><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                         <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
@@ -32,7 +32,7 @@
                     <div class="impair">
                         <h1>L'aide aux apprentissages : Pour qui ? pourquoi ?</h1>
                         <figure class="figure_right_large2">
-                            <img class="figure_photo" src="../images/apprentissage2.png" alt="Aide aux apprentissages" title="Aide aux apprentissages - Cécile PETITJEAN"/>
+                            <img class="figure_photo" src="images/apprentissage2.png" alt="Aide aux apprentissages" title="Aide aux apprentissages - Cécile PETITJEAN"/>
                         </figure>
                         <p>Les enfants peuvent être confrontés à différentes difficultés à l’école :</p>
                         <ul>

@@ -11,9 +11,9 @@
                 <?php include('header.php'); ?>
                 <nav class="header_nav">
                     <ul>
-                        <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                        <li><a href="index.html" title="Accueil">Accueil</a></li>
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
-                        <li><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
+                        <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li class="header_nav-active"><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                         <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
@@ -32,7 +32,7 @@
                     <div class="qui">
                         <h1>Qui suis-je ?</h1>
                         <figure class="figure_left">
-                            <img class="figure_photo" src="../images/cecile_ext.jpg" alt="Cécile PETITJEAN photo" title="Cécile PETITJEAN - Kinésiologue"/>
+                            <img class="figure_photo" src="images/cecile_ext.jpg" alt="Cécile PETITJEAN photo" title="Cécile PETITJEAN - Kinésiologue"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                         </figure>
                         <p>D'abord enseignante dans l’Education Nationale pendant plus de 20 ans, j’ai enseigné dans les différents niveaux de l’école primaire, de la maternelle à l’élémentaire et dans différentes écoles, toujours avec beaucoup de passion.</p>
@@ -42,7 +42,7 @@
                         <p>Très vite il m’est apparu que cela n’était pas suffisant. Nos <strong>réactions émotionnelles</strong> étant étroitement liées à notre <strong>histoire</strong>, il fallait aussi la prendre en considération pour mieux comprendre et maîtriser notre fonctionnement actuel, mieux <strong>gérer notre stress</strong>, nos <strong>émotions</strong>, avoir des <strong>projets</strong>, des <strong>ambitions</strong>, se sentir en <strong>confiance avec soi-même et avec les autres</strong>.</p>
                         <p>J’ai cherché à découvrir des méthodes de <strong>bien être</strong> et j’ai dévouvert et testé la <strong>kinésiologie</strong> à titre personnel, pour moi et pour mes propres enfants.</br> Cette approche a particulièrement retenu mon attention par sa pertinence, sa précision et son efficacité, et par son <strong>approche hollistique</strong>, c'est à dire en considérant la personne dans sa globalité.</p>
                         <figure class="figure_right_large2">
-                            <img class="figure_photo" src="../images/diplome.jpg" alt="Certification de Kinésiologue" title="Certification de Kinésiologue - Cécile PETITJEAN"/>
+                            <img class="figure_photo" src="images/diplome.jpg" alt="Certification de Kinésiologue" title="Certification de Kinésiologue - Cécile PETITJEAN"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                         </figure>
                         <p>J'ai beaucoup lu et appris sur le sujet et j'ai décidé alors de me former à l’<a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC">EKTC</a> (<strong>Ecole de Kinésiologie et Techniques Complémentaires</strong>) pendant 2 ans.</br>Suite à ce long travail d'apprentissage et de mises en applications, j'ai été officiellement certifiée en tant que <strong>Kinésiologue</strong>.</p>

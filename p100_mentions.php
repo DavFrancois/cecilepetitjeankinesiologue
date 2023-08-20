@@ -11,9 +11,9 @@
             <?php include('header.php'); ?>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                    <li><a href="index.html" title="Accueil">Accueil</a></li>
                     <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
-                    <li><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
+                    <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                     <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
                     <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>

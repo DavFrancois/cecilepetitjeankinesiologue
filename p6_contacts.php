@@ -11,9 +11,9 @@
             <?php include('header.php'); ?>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                    <li><a href="index.html" title="Accueil">Accueil</a></li>
                     <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
-                    <li><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
+                    <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                     <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
                     <li class="header_nav-active"><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
@@ -47,11 +47,11 @@
                             </div>
                             <div class="localisation__photos">
                                 <figure class="figure_right_large2">
-                                    <img class="figure_photo" src="../images/batLPDL.jpg" alt="Les Pépites du Loup" title="Les Pépites du Loup"/>
+                                    <img class="figure_photo" src="images/batLPDL.jpg" alt="Les Pépites du Loup" title="Les Pépites du Loup"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                                    <img class="figure_photo" src="../images/attenteLPDL.jpg" alt="Salle d'attente Les Pépites du Loup" title="Salle d'attente Les Pépites du Loup"/>
+                                    <img class="figure_photo" src="images/attenteLPDL.jpg" alt="Salle d'attente Les Pépites du Loup" title="Salle d'attente Les Pépites du Loup"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                                    <img class="figure_photo" src="../images/cabinet3.jpg" alt="Cabinet Cecile Francois Kinésiologue" title="Cabinet Cecile Francois Kinésiologue"/>
+                                    <img class="figure_photo" src="images/cabinet3.jpg" alt="Cabinet Cecile Francois Kinésiologue" title="Cabinet Cecile Francois Kinésiologue"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                                 </figure>
                             </div>
@@ -78,9 +78,9 @@
                     <div class="pair">
                         <h1>Autres liens et partenaires</h1>
                         <ul class="partenaires">
-                            <li><img class="partenaire_logo" src="../images/logo_ektc.png" alt="Logo EKTC" title="EKTC">Ecole de Kinésiologie et Techniques Complémentaires : <a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC"> EKTC</a></li>
-                            <li><img class="partenaire_logo" src="../images/logo.loup.webp" alt="Logo Pépites du Loup" title="Les Pépites du Loup" >Laboratoire d'Outils Utiles pour Parents : <a href="https://www.lespepitesduloup.fr/"  target="_blank" title="Lien vers le site Les Pépites du Loup"> Les Pépites du Loup</a></li>
-                            <li><img class="partenaire_logo" src="../images/logo_snk.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" >Syndicat National des Kinésiologues : <a href="https://www.snkinesio.fr/"  target="_blank" title="Lien vers le site SNK">SNK</a></li>
+                            <li><img class="partenaire_logo" src="images/logo_ektc.png" alt="Logo EKTC" title="EKTC">Ecole de Kinésiologie et Techniques Complémentaires : <a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC"> EKTC</a></li>
+                            <li><img class="partenaire_logo" src="images/logo.loup.webp" alt="Logo Pépites du Loup" title="Les Pépites du Loup" >Laboratoire d'Outils Utiles pour Parents : <a href="https://www.lespepitesduloup.fr/"  target="_blank" title="Lien vers le site Les Pépites du Loup"> Les Pépites du Loup</a></li>
+                            <li><img class="partenaire_logo" src="images/logo_snk.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" >Syndicat National des Kinésiologues : <a href="https://www.snkinesio.fr/"  target="_blank" title="Lien vers le site SNK">SNK</a></li>
                         </ul>
                     </div>
                     <?php include('calendrier.php'); ?>

@@ -2,8 +2,13 @@
 <html lang="fr">
 	<head> <!-- Entête de la page -->
 		<title>Cécile PETITJEAN - Kinésiologue - La kinésiologie</title>
-        <?php include('meta.php'); ?>
-	</head>
+        <meta charset="utf-8"> <!-- meta : important pour seo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Cécile PETITJEAN">
+        <meta name="description" content="Cécile PETITJEAN kinésiologue certifiée sur Rennes. Médecine alternative. Aide aux apprentissages, peurs, phobies, relation aux autres, trouble du sommeil, gestion du stress, confiance en soi, santé, maux du corps, estime de soi, comportements alimentaires">
+        <meta name="keywords" content="Cécile PETITJEAN, kinésiologue, kinesiologie, sophrologie, Rennes. Médecine alternative. apprentissage, peurs, phobies, relation aux autres, trouble, sommeil, stress, confiance, soi, santé, maux, corps, estime, comportements, alimentaires, énergie, éducation, devoirs, enfants"><!-- A compléter-->
+        <link rel="stylesheet" href="css/stylececile.css" />
+    </head>
 
 	<body> <!-- Corps de la page -->
 		<div id="bloc_page"> <!--page complète-->
@@ -11,7 +16,7 @@
             <?php include('header.php'); ?> <!-- header_heading -->
             <nav class="header_nav">
                 <ul>
-                    <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                    <li><a href="index.html" title="Accueil">Accueil</a></li>
                     <li class="header_nav-active"><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                     <li><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
@@ -33,7 +38,7 @@
                         <h1>La kinésiologie, c'est quoi ?</h1>
                         <p>La kinésiologie est une technique qui donne la parole à votre corps en se basant sur le fait que <strong>notre corps garde tout en mémoire</strong>, contrairement à notre mental qui fait du tri, consciemment ou inconsciemment.</p>
                         <figure class="figure_right_large2">
-                                <img class="figure_photo" src="../images/main.jpg" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
+                                <img class="figure_photo" src="images/main.jpg" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
                             </figure>
                         <p>Basée sur la <strong>mémoire cellulaire</strong>, la kinésiologie utilise un <strong>test musculaire</strong>, très doux et sans effort, pour entrer en dialogue avec votre corps, et avoir accès à des informations oubliées, ou parfois refoulées.</p>
                         <p>Le corps gardant tout en mémoire à chaque instant de la vie, certains évènements parfois anciens s’impriment, laissent une « empreinte », et peuvent bloquer ou gêner l’avancée dans notre chemin de vie.</p>
@@ -53,7 +58,7 @@
                             <li>Retrouver un <strong>équilibre</strong> entre son corps et son esprit.</li>
                             <li>Identifier les émotions ou les évènements qui ont provoqués des <strong>blocages</strong>.</li>
                             <li>Mettre des mots sur ses <strong>maux</strong> pour s’en libérer.<figure class="figure_right_large">
-                                <img class="figure_photo" src="../images/trianglesanté.png" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
+                                <img class="figure_photo" src="images/trianglesanté.png" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
                             </figure></li>
                             <li>Eliminer les comportements qui freinent l’<strong>épanouissement</strong> afin de reprendre le contrôle et retrouver sa liberté de choix ; mettre des mots sur <strong>ce qui vous empêche réellement d’avancer</strong>.</li>
                             <li>Améliorer sa <strong>confiance</strong> en soi et son <strong>estime</strong> de soi.</li>
@@ -73,7 +78,7 @@
                             <li>Des difficultés d’<strong>apprentissage</strong> ou de <strong>concentration</strong></li>
                             <li><strong>Stress</strong>, <strong>angoisse</strong></li>
                             <li><strong>Mal-être</strong><<figure class="figure_right_large2">
-                                <img class="figure_photo" src="../images/cando.png" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
+                                <img class="figure_photo" src="images/cando.png" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
                             </figure>/li>
                             <li><strong>Manque de confiance en soi</strong></li>
                             <li><strong>Peurs</strong>, voire <strong>phobies</strong></li>

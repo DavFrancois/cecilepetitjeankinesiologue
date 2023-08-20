@@ -11,9 +11,9 @@
                 <?php include('header.php'); ?>
                 <nav class="header_nav">
                     <ul>
-                        <li><a href="p1_accueil.php" title="Accueil">Accueil</a></li>
+                        <li><a href="index.html" title="Accueil">Accueil</a></li>
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
-                        <li><a href="p3_Apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
+                        <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                         <li class="header_nav-active"><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
@@ -32,14 +32,14 @@
                     <div class="centre">
                         <h1>Comment se déroule une scéance de kinésiologie ?</h1>
                         <figure class="figure_right_large">
-                            <img class="figure_photo" src="../images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
+                            <img class="figure_photo" src="images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                         </figure><p></br>Une séance dure <strong>environ 1H30</strong>.</p>
                         </br>
                         <ul>
                             <li><p>Après un <strong>entretien</strong> pendant lequel vous m’exposerez votre problématique, nous évoquerons ensemble les éléments bloquants, si vous les connaissez, vous empêchant d’accéder à votre objectif, ou à votre état désiré.</p></br></li>
                             <li><p>Ensuite, nous chercherons à identifier, grâce au <strong>test musculaire</strong> (doux et sans effort pour vous) l'origine de vos blocages et stress en lien avec votre problématique actuelle.</br></p>
-                                <figure class="figure_left"><img class="figure_photo" src="../images/test_alonge.jpg" alt="Test musculaire en kinésiologie" title="Test musculaire"/>
+                                <figure class="figure_left"><img class="figure_photo" src="images/test_alonge.jpg" alt="Test musculaire en kinésiologie" title="Test musculaire"/>
                                 <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                                 </figure></br>
                                 <p>Le test musculaire consiste pour moi à détecter les variations de votre tonus musculaire, indicateurs d'un sujet stressant pour vous, parfois au plus profond de vous-même, hors du contrôle par votre mental.</p>
