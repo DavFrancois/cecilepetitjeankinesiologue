@@ -6,22 +6,25 @@
 }
 
 .btn2 {
-    @include btn2 (5px 10px 5px 10px);
+    @include btn2 (5px 20px 5px 20px);
     position:relative;
     top: 20px; right: -50px;
-    @media all and (max-width: 1024px) {
-        font-size: 0.7rem;
-        right: 0;
-        /*@include btn (5px 10px 5px 10px);*/
-    }
-    @media all and (max-width: 680px) {
+    @media all and (max-width: 1200px) {
         display: flex;
         flex-direction: column;
-        font-size: 0.6rem;
-        right: 0;
-        @include btn2 (5px 5px 5px 5px);
+        max-width: 380px;
+        top: 10px;
+        margin-top: 10px;
     }
-
+    @media all and (max-width: 750px) {
+        @include btn2 (5px 5px 5px 15px);
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        font-size: 0.7rem;
+        max-width: 230px;
+        font-size: 0.6rem;
+    }
 }
 
 .btn3 {
@@ -39,7 +42,6 @@
     text-align: center;
     @media all and (max-width: 1024px) {
         font-size: 0.7rem;
-        /*@include btn (5px 10px 5px 10px);*/
     }
 }
 

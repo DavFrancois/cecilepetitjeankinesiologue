@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue</title>
-		<meta charset="utf-8" /> <!-- meta : important pour seo-->
-        <meta name="description" content="Cécile PETITJEAN kinésiologue certifiée sur Rennes. Médecine alternative. Aide aux apprentissages, peurs, phobies, relation aux autres, trouble du sommeil, gestion du stress, confiance en soi, santé, maux du corps, estime de soi, comportements alimentaires">
-        <meta name="keywords" content="Cécile PETITJEAN, kinésiologue, kinesiologie, sophrologie, Rennes. Médecine alternative. apprentissage, peurs, phobies, relation aux autres, trouble, sommeil, stress, confiance, soi, santé, maux, corps, estime, comportements, alimentaires, énergie, éducation, devoirs, enfants"><!-- A compléter-->
-		<link rel="stylesheet" href="../css/stylececile.css" />
+		<title>Cécile PETITJEAN - Kinésiologue - Accueil</title>
+        <?php include('meta.php'); ?>
 	</head>
 
 	<body> <!-- Corps de la page -->
@@ -77,42 +74,41 @@
                     <div class="vignette_text--hover">DIFFICULTES D'APPRENTISSAGE :</br>- Difficultés de mémorisation,</br>- Difficultés de concentration</br>- Difficultés de lecture, écriture, calcul</br>- Difficultés à tenir en place</br>- Peur des situations d’examen</br>- Perte de ses moyens alors qu’on a travaillé</br>- ...<a class="btn4" href="p3_apprentissage.php" title="Aide aux apprentissages">En savoir plus sur l'aide aux apprentissages</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="phobie" src="../images/phobie_carre.jpg" alt="Peurs et phobies" title="Cliquez pour Gestion des émotions"/>
+                    <img class="image" id="phobie" src="../images/emotions.jpg" alt="Peurs et phobies" title="Gestion des émotions"/>
                     <div class="text">Gestion des émotions</div>
                     <div class="vignette_text--hover">GESTION DES EMOTIONS :</br>- Difficultés à contrôler ses émotions</br>- Colères</br>- Peurs, phobies</br>- Pleurs</br>- Hypersensibilité</br>- Hyper émotivité</br>- ...<a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="relation" src="../images/autres_carre.jpg" alt="relation aux autres" title="Cliquez pour Relation aux autres"/></a>
+                    <img class="image" id="relation" src="../images/autres_carre.jpg" alt="relation aux autres" title="Relation aux autres"/></a>
                     <div class="text">Relation aux autres</div>
                     <div class="vignette_text--hover">PROBLEMES DE RELATION AUX AUTRES :</br>- Difficultés à communiquer avec les autres</br>- Timidité </br>- Extravagance excessive</br>- Sentiment d’infériorité</br>- Peur de toujours déranger</br>- Sentiment d'être toujours jugé</br>- Besoin de se mettre en avant</br>- Jalousie excessive</br>- ...<a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="sommeil" src="../images/sommeil_carre.jpg" alt="Sommeil" title="Cliquez pour Sommeil"/></a>
+                    <img class="image" id="sommeil" src="../images/sommeil_carre.jpg" alt="Sommeil" title="Problèmes de sommeil"/></a>
                     <div class="text">Sommeil</div>
                     <div class="vignette_text--hover">PROBLEMES DE SOMMEIL :</br>- Difficultés d’endormissement</br>- Réveils nocturnes</br>- Insomnies</br>- Cauchemars</br>- ...<a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="stress" src="../images/stress_carre.jpg" alt="stress" title="Cliquez pour Stress"/></a>
+                    <img class="image" id="stress" src="../images/stress_carre.jpg" alt="stress" title="Problèmes de stress"/></a>
                     <div class="text">Stress</div>
                     <div class="vignette_text--hover">STRESS :</br>- Difficulté à gérer son stress</br>- Panique</br>- Peur de ne pas y arriver</br>- Sensation de surcharge</br>- Blocage lié au stress</br>- ...<a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="confiance" src="../images/confiance_carre.jpg" alt="confiance" title="Cliquez pour Confiance"/></a>
-                    <div class="text">Confiance</div>
+                    <img class="image" id="confiance en soi" src="../images/confiance.jpg" alt="confianceen soi" title="Confiance en soi"/></a>
+                    <div class="text">Confiance en soi</div>
                     <div class="vignette_text--hover">PROBLEMES DE CONFIANCE :</br>- Manque de confiance en soi</br>- Peur de ne pas être à la hauteur, de ne pas y arriver</br>- Peur de décevoir</br>- Peur de ne pas être aimé</br>- Sentiment d’être moche, bête, faible</br>- Peur de se lancer dans un nouveau projet</br>- ...<a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="sante" src="../images/sante_carre.jpg" alt="santé" title="Cliquez pour Santé et maux du corps"/></a>
+                    <img class="image" id="sante" src="../images/sante_carre.jpg" alt="santé" title="Santé et maux du corps"/></a>
                     <div class="text">Santé, maux du corps</div>
                     <div class="vignette_text--hover">PROBLEMES DE SANTE:</br>- Douleurs physiques, qui ne partent pas malgré un suivi médical par un professionnel de santé</br></br><font size="2rem">(Attention, la kinésiologie n'a pas pour objectif de remplacer ou de donner un avis médical. Elle peut être complémentaire pour une prise en charge globale, prenant en compte les causes psychosomatiques.)</font></br><a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
                 <div class="vignette">
-                    <img class="image" id="aliment" src="../images/aliment_carre.jpg" alt="comportements alimentaires" title="Cliquez pour Comportements alimentaires"/></a>
+                    <img class="image" id="aliment" src="../images/aliment_carre.jpg" alt="comportements alimentaires" title="Comportements alimentaires"/></a>
                     <div class="text">Comportements alimentaires</div>
                     <div class="vignette_text--hover">PROBLEMES DE COMPORTEMENTS ALIMENTAIRES :</br>- Troubles de l’alimentation</br>- Phobie alimentaire</br>- Sélectivité alimentaire</br>- ...</br></br><a class="btn4" href="p2_kinesiologue.php" title="La kinésiologie">En savoir plus sur la kinésiologie</a></div>
                 </div>
-            </nav>
-            
+            </nav>           
             <?php include('calendrier.php'); ?>
 
             <article class="accroche_temoignage">    
@@ -126,9 +122,7 @@
                     <h3>David</h3>
                 </div>
             </article>
-
             <?php include('footer.php'); ?>
-                    
         </div>
         <?php include('gototop.php'); ?>
 	</body>

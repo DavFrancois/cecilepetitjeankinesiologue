@@ -141,11 +141,12 @@ article {
             font-size: 0.8rem;
         }
     }
-    h3 {
+    em {
         margin-left: 2rem;
         margin-bottom: 2rem;
         font-size: 1rem;
         font-style: italic;
+        font-weight: bold;
         @media all and (max-width: 1024px) {
             font-size: 0.7rem;
         }
@@ -250,14 +251,11 @@ article {
         iframe {
             max-width:400px;
             height: 450px;
+            border: 0;
             @media all and (max-width: 1024px) {
                 max-width:250px;
                 height:300px;
             }
-
-        }
-        img {
-            /*height: 120px;*/
         }
     }
 
@@ -280,7 +278,6 @@ article {
             @media all and (max-width: 1024px) {
                 font-size: 0.85rem;
             }
-
         }
     }
 }

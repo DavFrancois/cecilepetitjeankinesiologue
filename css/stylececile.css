@@ -150,7 +150,7 @@ em {
 }
 
 .btn2 {
-  padding: 5px 10px 5px 10px;
+  padding: 5px 20px 5px 20px;
   color: green;
   border: 0.1rem solid green;
   border-radius: 10px;
@@ -165,26 +165,30 @@ em {
   background: green;
   color: white;
 }
-@media all and (max-width: 1024px) {
-  .btn2 {
-    font-size: 0.7rem;
-    right: 0;
-    /*@include btn (5px 10px 5px 10px);*/
-  }
-}
-@media all and (max-width: 680px) {
+@media all and (max-width: 1200px) {
   .btn2 {
     display: flex;
     flex-direction: column;
-    font-size: 0.6rem;
-    right: 0;
-    padding: 5px 5px 5px 5px;
+    max-width: 380px;
+    top: 10px;
+    margin-top: 10px;
+  }
+}
+@media all and (max-width: 750px) {
+  .btn2 {
+    padding: 5px 5px 5px 15px;
     color: green;
     border: 0.1rem solid green;
     border-radius: 10px;
     background: rgba(226, 226, 226, 0.8);
     text-decoration: none;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    font-size: 0.7rem;
+    max-width: 230px;
+    font-size: 0.6rem;
   }
   .btn2:hover {
     background: green;
@@ -239,7 +243,6 @@ em {
 @media all and (max-width: 1024px) {
   .btn4 {
     font-size: 0.7rem;
-    /*@include btn (5px 10px 5px 10px);*/
   }
 }
 
@@ -367,6 +370,11 @@ em {
     border-radius: 0;
   }
 }
+@media all and (max-width: 830px) {
+  .header_nav a {
+    padding: 0 10px 10px 10px;
+  }
+}
 .header_nav a:hover {
   background-color: rgb(153, 187, 153);
   padding-top: 10px;
@@ -388,7 +396,6 @@ em {
 }
 @media all and (max-width: 1024px) {
   .header_nav-active {
-    /*width: 100%;*/
     border-radius: 0;
   }
 }
@@ -403,6 +410,7 @@ em {
   }
 }
 .section_nav p {
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.6rem;
   font-weight: bold;
@@ -513,11 +521,20 @@ em {
   border-radius: 15px;
   font-size: 1em;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 1.6rem;
   color: white;
   background-color: rgba(153, 152, 152, 0.8);
   overflow: auto;
   display: none;
+}
+@media all and (max-width: 1300px) {
+  .section_nav-accueil .vignette .vignette_text--hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 0.9em;
+    line-height: 1.4rem;
+  }
 }
 @media all and (max-width: 1024px) {
   .section_nav-accueil .vignette .vignette_text--hover {
@@ -795,9 +812,6 @@ footer .heading .snk img {
   height: 40px;
   margin-left: 10px;
   float: right;
-  /*@media all and (max-width: 730px) {
-      height: 30px;
-  }*/
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk img {
@@ -805,7 +819,6 @@ footer .heading .snk img {
   }
 }
 footer .mentions {
-  /*margin-bottom: 2px;*/
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -1068,14 +1081,15 @@ article h2 { /*citations*/
     font-size: 0.8rem;
   }
 }
-article h3 {
+article em {
   margin-left: 2rem;
   margin-bottom: 2rem;
   font-size: 1rem;
   font-style: italic;
+  font-weight: bold;
 }
 @media all and (max-width: 1024px) {
-  article h3 {
+  article em {
     font-size: 0.7rem;
   }
 }
@@ -1199,15 +1213,13 @@ article .localisation__lieu {
 article .localisation iframe {
   max-width: 400px;
   height: 450px;
+  border: 0;
 }
 @media all and (max-width: 1024px) {
   article .localisation iframe {
     max-width: 250px;
     height: 300px;
   }
-}
-article .localisation img {
-  /*height: 120px;*/
 }
 article .partenaires {
   display: grid;

@@ -1,10 +1,8 @@
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue</title>
-		<meta charset="utf-8" /> <!-- meta : important pour seo-->
-        <meta name="description" content="Cécile PETITJEAN kinésiologue certifiée sur Rennes. Médecine alternative. Aide aux apprentissages, peurs, phobies, relation aux autres, trouble du sommeil, gestion du stress, confiance en soi, santé, maux du corps, estime de soi, comportements alimentaires">
-        <meta name="keywords" content="Cécile PETITJEAN, kinésiologue, kinesiologie, sophrologie, Rennes. Médecine alternative. apprentissage, peurs, phobies, relation aux autres, trouble, sommeil, stress, confiance, soi, santé, maux, corps, estime, comportements, alimentaires, énergie, éducation, devoirs, enfants"><!-- A compléter-->
-		<link rel="stylesheet" href="../css/stylececile.css" />
+		<title>Cécile PETITJEAN - Kinésiologue - Mentions légales</title>
+
+        <?php include('meta.php'); ?>
 	</head>
 
 	<body> <!-- Corps de la page -->
@@ -28,8 +26,7 @@
             </div>
             
             <section>
-                <?php @include('section_nav.php'); ?> <!-- bandeau lateral de navigation -->
-                
+                <?php include('section_nav.php'); ?> <!-- bandeau lateral de navigation -->
                 </nav>
 
 				<article>              
@@ -56,7 +53,6 @@
                     </div>
                 </article>
             </section>
-                    
             <?php include('footer.php'); ?>
 		</div>
         <?php include('gototop.php'); ?>

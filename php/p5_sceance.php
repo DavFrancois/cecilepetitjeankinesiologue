@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue</title>
-		<meta charset="utf-8" /> <!-- meta : important pour seo-->
-        <meta name="description" content="Cécile PETITJEAN kinésiologue certifiée sur Rennes. Médecine alternative. Aide aux apprentissages, peurs, phobies, relation aux autres, trouble du sommeil, gestion du stress, confiance en soi, santé, maux du corps, estime de soi, comportements alimentaires">
-        <meta name="keywords" content="Cécile PETITJEAN, kinésiologue, kinesiologie, sophrologie, Rennes. Médecine alternative. apprentissage, peurs, phobies, relation aux autres, trouble, sommeil, stress, confiance, soi, santé, maux, corps, estime, comportements, alimentaires, énergie, éducation, devoirs, enfants"><!-- A compléter-->
-		<link rel="stylesheet" href="../css/stylececile.css" />
+		<title>Cécile PETITJEAN - Kinésiologue - Une scéance de kinésiologie</title>
+        <?php include('meta.php'); ?>
 	</head>
 
 	<body> <!-- Corps de la page -->
@@ -34,25 +31,22 @@
                 <article> <!--contenu-->
                     <div class="centre">
                         <h1>Comment se déroule une scéance de kinésiologie ?</h1>
-                        <p></br>Une séance dure <strong>environ 1H30</strong>.</p>
-                        </br><figure class="figure_right_large">
-                            <img class="figure_photo" src="../images/cabinetLPDL1.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
+                        <figure class="figure_right_large">
+                            <img class="figure_photo" src="../images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                        </figure>
+                        </figure><p></br>Une séance dure <strong>environ 1H30</strong>.</p>
+                        </br>
                         <ul>
-                            <li>
-                                <p>Après un <strong>entretien</strong> pendant lequel vous m’exposerez votre problématique, nous évoquerons ensemble les éléments bloquants, si vous les connaissez, vous empêchant d’accéder à votre objectif, ou à votre état désiré.</p>
-                                <li>
-                                    <p>Ensuite, nous chercherons à identifier, grâce au <strong>test musculaire</strong> (doux et sans effort pour vous) l'origine de vos blocages et stress en lien avec votre problématique actuelle.</br></p>
-                                </li>
-                                    <figure class="figure_left">
-                                    <img class="figure_photo" src="../images/test_alonge.jpg" alt="Test musculaire en kinésiologie" title="Test musculaire"/>           <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                                </figure>
-                                <p></br>Le test musculaire consiste pour moi à détecter les variations de votre tonus musculaire, indicateurs d'un sujet stressant pour vous, parfois au plus profond de vous-même, hors du contrôle par votre mental.</p>
+                            <li><p>Après un <strong>entretien</strong> pendant lequel vous m’exposerez votre problématique, nous évoquerons ensemble les éléments bloquants, si vous les connaissez, vous empêchant d’accéder à votre objectif, ou à votre état désiré.</p></br></li>
+                            <li><p>Ensuite, nous chercherons à identifier, grâce au <strong>test musculaire</strong> (doux et sans effort pour vous) l'origine de vos blocages et stress en lien avec votre problématique actuelle.</br></p>
+                                <figure class="figure_left"><img class="figure_photo" src="../images/test_alonge.jpg" alt="Test musculaire en kinésiologie" title="Test musculaire"/>
+                                <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
+                                </figure></br>
+                                <p>Le test musculaire consiste pour moi à détecter les variations de votre tonus musculaire, indicateurs d'un sujet stressant pour vous, parfois au plus profond de vous-même, hors du contrôle par votre mental.</p>
                                 <p>Je pratique le test musculaire allongé sur la table de massage mais il est possible de fonctionner autrement, assis notamment, en cas de problème physique empêchant d’être allongé.</p>
-                                <p></br>L'ensemble du test se fait habillé.</p>
-                            </li>
-                            <p></br></br></br></p>
+                                <p>L'ensemble du test se fait habillé.</p>
+                            </br></br></br></li>
+                            
                             <li>
                                 <p>Puis nous utiliserons la technique la plus adaptée afin de <strong>corriger</strong> et <strong>rééquilibrer</strong>, pour dépasser votre problématique et accéder à votre plein potentiel.</p>
 
@@ -72,10 +66,8 @@
                     </div>
                     <?php include('calendrier.php'); ?>
                     </article>
-                        
                     </div>
             </section>
-                    
             <?php include('footer.php'); ?>
 		</div>
         <?php include('gototop.php'); ?>

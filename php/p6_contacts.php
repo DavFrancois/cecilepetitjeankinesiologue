@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue</title>
-		<meta charset="utf-8" /> <!-- meta : important pour seo-->
-        <meta name="description" content="Cécile PETITJEAN kinésiologue certifiée sur Rennes. Médecine alternative. Aide aux apprentissages, peurs, phobies, relation aux autres, trouble du sommeil, gestion du stress, confiance en soi, santé, maux du corps, estime de soi, comportements alimentaires">
-        <meta name="keywords" content="Cécile PETITJEAN, kinésiologue, kinesiologie, sophrologie, Rennes. Médecine alternative. apprentissage, peurs, phobies, relation aux autres, trouble, sommeil, stress, confiance, soi, santé, maux, corps, estime, comportements, alimentaires, énergie, éducation, devoirs, enfants"><!-- A compléter-->
-		<link rel="stylesheet" href="../css/stylececile.css" />
+		<title>Cécile PETITJEAN - Kinésiologue - Contacts, tarifs</title>
+        <?php include('meta.php'); ?>
 	</head>
 
 	<body> <!-- Corps de la page -->
@@ -45,16 +42,16 @@
                                 <h5>Les Pépites du Loup</h5>
                                 <p>1, rue des Mauriers 35400 Saint-Malo</p>
                                 <iframe title="Localisation Cécile Petitjean Kinésiologie Saint-Malo" alt="localisation Cécile Petitjean Kinésiologie Saint-Malo"
-                                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84364.74722952356!2d-2.0847406802409076!3d48.64049417005871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e83f5b78e3fdf%3A0x85f1ede67cb68c14!2sCentre%20de%20formation%20Les%20p%C3%A9pites%20du%20loup!5e0!3m2!1sfr!2sfr!4v1681405812615!5m2!1sfr!2sfr"></iframe>
                             </div>
                             <div class="localisation__photos">
                                 <figure class="figure_right_large2">
                                     <img class="figure_photo" src="../images/batLPDL.jpg" alt="Les Pépites du Loup" title="Les Pépites du Loup"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                                    <img class="figure_photo" src="../images/parkingLPDL.jpg" alt="Parking gratuit" title="Parking gratuit"/>
-                                    <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                                     <img class="figure_photo" src="../images/attenteLPDL.jpg" alt="Salle d'attente Les Pépites du Loup" title="Salle d'attente Les Pépites du Loup"/>
+                                    <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
+                                    <img class="figure_photo" src="../images/cabinet3.jpg" alt="Cabinet Cecile Francois Kinésiologue" title="Cabinet Cecile Francois Kinésiologue"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                                 </figure>
                             </div>
@@ -78,7 +75,6 @@
                         <p>Durée d'une scéance : environ <strong>1h30</strong></p>
                         <h6></br>* : paiement en espèces ou par chèque uniquement</br>Toute scéance programmée et non annulée au moins 48h à l'avance sera due.</h6>
                     </div>
-
                     <div class="pair">
                         <h1>Autres liens et partenaires</h1>
                         <ul class="partenaires">
@@ -117,7 +113,6 @@
                     -->
                 </article>
             </section>
-                    
             <?php include('footer.php'); ?>
 		</div>
         <?php include('gototop.php'); ?>
