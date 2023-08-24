@@ -66,6 +66,9 @@ article {
             .figure_photo {
                 @include figure_photo(150px);
                 margin-left: 15px;
+                @media all and (max-width: 1024px) {
+                    @include figure_photo(80px);
+                }
             }
     }
     .figure_right_large {
