@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue - Une scéance de kinésiologie</title>
+		<title>Cécile PETITJEAN - Kinésiologue - Une séance de kinésiologie</title>
         <?php include('meta.php'); ?>
 	</head>
 
@@ -15,7 +15,7 @@
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                         <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
-                        <li class="header_nav-active"><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
+                        <li class="header_nav-active"><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                     </ul>
                 </nav>
@@ -30,7 +30,7 @@
 				
                 <article> <!--contenu-->
                     <div class="centre">
-                        <h1>Comment se déroule une scéance de kinésiologie ?</h1>
+                        <h1>Comment se déroule une séance de kinésiologie ?</h1>
                         <figure class="figure_right_large">
                             <img class="figure_photo" src="images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
@@ -50,7 +50,7 @@
                             <li>
                                 <p>Puis nous utiliserons la technique la plus adaptée afin de <strong>corriger</strong> et <strong>rééquilibrer</strong>, pour dépasser votre problématique et accéder à votre plein potentiel.</p>
 
-                                <p>Si nous nous comparions à un ordinateur, la correction consisterait en quelque sorte à faire une mise à jour et/ou reprogrammation partielle en fonction des dysfonctionnement détectés, afin d'optimiser le système et le potentiel de la machine.</p>
+                                <p>Si nous nous comparions à un ordinateur, la correction consisterait en quelque sorte à faire une mise à jour et/ou reprogrammation partielle en fonction des dysfonctionnements détectés, afin d'optimiser le système et le potentiel de la machine.</p>
                                 <p>Mes outils de rééquilibration sont variés et dépendront de chaque problématique et de chaque personne :</p>
                                 <ul>
                                     <li>Santé par le toucher</li>

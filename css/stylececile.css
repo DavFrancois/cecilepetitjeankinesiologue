@@ -200,6 +200,7 @@ em {
     top: 10px;
     margin-top: 10px;
     font-size: 0.9rem;
+    font-weight: 600;
   }
 }
 @media all and (max-width: 750px) {
@@ -216,7 +217,7 @@ em {
     right: 0;
     font-size: 0.7rem;
     max-width: 230px;
-    font-size: 0.7rem;
+    font-weight: 600;
   }
   .btn2:hover {
     background: green;
@@ -829,7 +830,7 @@ footer .heading .cecile_footer {
 @media all and (max-width: 680px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 }
@@ -880,8 +881,7 @@ footer .heading .reseaux img {
 }
 @media all and (max-width: 730px) {
   footer .heading .reseaux img {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0;
   }
 }
 footer .heading .snk {
@@ -1282,13 +1282,20 @@ article h2 { /*citations*/
 article em {
   margin-left: 2rem;
   margin-bottom: 2rem;
+  line-height: 1.4rem;
   font-size: 1rem;
   font-style: italic;
   font-weight: bold;
 }
 @media all and (max-width: 1024px) {
   article em {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  article em {
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 }
 article h6 {
@@ -1312,13 +1319,15 @@ article p {
 @media all and (max-width: 1024px) {
   article p {
     margin-top: 0.8rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
     line-height: 1.2em;
   }
 }
 @media all and (max-width: 680px) {
   article p {
     font-size: 0.75rem;
+    font-weight: 500;
   }
 }
 article li {
@@ -1332,12 +1341,14 @@ article li {
     font-size: 0.8rem;
     margin-left: 0.5rem;
     line-height: 1.2em;
+    font-weight: 500;
   }
 }
 @media all and (max-width: 680px) {
   article li {
     font-size: 0.7rem;
     margin-left: 0.5rem;
+    font-weight: 500;
   }
 }
 article strong {

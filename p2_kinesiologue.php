@@ -20,7 +20,7 @@
                     <li class="header_nav-active"><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                     <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
-                    <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
+                    <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                     <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                 </ul>
             </nav>
@@ -56,7 +56,7 @@
                         <p>En l'identifiant et en la libérant, la kinésiologie aide à :</p>
                         <ul>
                             <li>Retrouver un <strong>équilibre</strong> entre son corps et son esprit.</li>
-                            <li>Identifier les émotions ou les évènements qui ont provoqués des <strong>blocages</strong>.</li>
+                            <li>Identifier les émotions ou les évènements qui ont provoqué des <strong>blocages</strong>.</li>
                             <li>Mettre des mots sur ses <strong>maux</strong> pour s’en libérer.<figure class="figure_right_large">
                                 <img class="figure_photo" src="images/trianglesanté.png" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
                             </figure></li>
@@ -87,7 +87,7 @@
                             <li>Troubles de l’<strong>alimentation</strong> ou du <strong>sommeil</strong></li>
                             <li><strong>Difficultés relationnelles</strong> (timidité, agressivité…)</li>
                             <li><strong>Douleurs</strong> sans raison apparente, qui ne passent pas malgré le suivi médical</li>
-                            <li>...etc. La liste des exemples pourrait s'étendre.</li>
+                            <li>...etc. Cette liste n'est pas exhaustive.</li>
                         </ul>
                         <h2>« Vous êtes maître de votre vie et qu’importe votre prison,</br>vous en avez les clefs »  Dalaï Lama</h2>
                     </div>

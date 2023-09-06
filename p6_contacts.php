@@ -15,7 +15,7 @@
                     <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                     <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
-                    <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
+                    <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                     <li class="header_nav-active"><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                 </ul>
             </nav>
@@ -69,11 +69,11 @@
                     <div class="impair">
                         <h1>Tarifs*</h1>
                         <ul>
-                            <li>KINESIOLOGIE scéance adulte ou enfant : 60 €</li>
+                            <li>KINESIOLOGIE séance adulte ou enfant : 60 €</li>
                         </ul>
                         <p>Remboursement possible selon les mutuelles au titre des forfaits prévention, mieux être ou médecine douce.</p>
-                        <p>Durée d'une scéance : environ <strong>1h30</strong></p>
-                        <h6></br>* : paiement en espèces ou par chèque uniquement</br>Toute scéance programmée et non annulée au moins 48h à l'avance sera due.</h6>
+                        <p>Durée d'une séance : environ <strong>1h30</strong></p>
+                        <h6></br>* : paiement en espèces ou par chèque uniquement</br>Toute séance programmée et non annulée au moins 48h à l'avance sera due.</h6>
                     </div>
                     <div class="pair">
                         <h1>Autres liens et partenaires</h1>

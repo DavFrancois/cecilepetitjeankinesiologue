@@ -15,7 +15,7 @@
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                         <li class="header_nav-active"><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
-                        <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
+                        <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                     </ul>
                 </nav>

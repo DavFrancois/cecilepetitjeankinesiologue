@@ -171,11 +171,17 @@ article {
     em {
         margin-left: 2rem;
         margin-bottom: 2rem;
+        line-height: 1.4rem;
         font-size: 1rem;
         font-style: italic;
         font-weight: bold;
         @media all and (max-width: 1024px) {
-            font-size: 0.7rem;
+            font-size: 0.9rem;
+        }
+        @media all and (max-width: 1024px) {
+            font-size: 0.8rem;
+            line-height: 1rem;
+
         }
     }
     h6 {
@@ -194,11 +200,13 @@ article {
         line-height: 1.5rem;
         @media all and (max-width: 1024px) {
             margin-top: 0.8rem;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+            font-weight: 500;
             line-height: 1.2em;
         }
         @media all and (max-width: 680px) {
             font-size: 0.75rem;
+            font-weight: 500;
         }
     }
     li {
@@ -210,10 +218,14 @@ article {
             font-size: 0.8rem;
             margin-left:0.5rem;
             line-height: 1.2em;
+            font-weight: 500;
+
         }
         @media all and (max-width: 680px) {
             font-size: 0.7rem;
             margin-left:0.5rem;
+            font-weight: 500;
+
         }
     }
     strong {

@@ -15,7 +15,7 @@
                         <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                         <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                         <li class="header_nav-active"><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
-                        <li><a href="p5_sceance.php" title="Comment se déroule une scéance de kinésiologie ?">Scéance</a></li>
+                        <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                         <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                     </ul>
                 </nav>
@@ -37,10 +37,10 @@
                         </figure>
                         <p>D'abord enseignante dans l’Education Nationale pendant plus de 20 ans, j’ai enseigné dans les différents niveaux de l’école primaire, de la maternelle à l’élémentaire et dans différentes écoles, toujours avec beaucoup de passion.</p>
                         <p>J’ai toujours eu à cœur de faire réussir les enfants qui m’étaient confiés. J’ai beaucoup aimé mon métier, mais je sentais bien que quelque chose manquait dans le fonctionnement de l’école, que les <strong>potentiels individuels</strong> de chaque enfant n’étaient pas suffisamment explorés et mis en valeur, que les intelligences multiples et variées ne pouvaient pas s’exprimer pleinement.</p>
-                        <p>Année après année, il m’est apparu comme une évidence qu’il fallait d’avantage prendre en considération l’enfant dans son individualité mais aussi et surtout dans sa <strong>globalité</strong> pour pouvoir réussir à lui enseigner quelque chose ; que la mauvaise, ou même l'absence de prise en considération des émotions, des ressentis, des histoires de vie, limitait forcément la possibilité d’<strong>exprimer tout leur potentiel</strong>.</p>
+                        <p>Année après année, il m’est apparu comme une évidence qu’il fallait davantage prendre en considération l’enfant dans son individualité mais aussi et surtout dans sa <strong>globalité</strong> pour pouvoir réussir à lui enseigner quelque chose ; que la mauvaise, ou même l'absence de prise en considération des émotions, des ressentis, des histoires de vie, limitait forcément la possibilité d’<strong>exprimer tout leur potentiel</strong>.</p>
                         <p>Aussi j’ai d’abord cherché à me former dans la <strong>gestion des émotions</strong>.</p>
                         <p>Très vite il m’est apparu que cela n’était pas suffisant. Nos <strong>réactions émotionnelles</strong> étant étroitement liées à notre <strong>histoire</strong>, il fallait aussi la prendre en considération pour mieux comprendre et maîtriser notre fonctionnement actuel, mieux <strong>gérer notre stress</strong>, nos <strong>émotions</strong>, avoir des <strong>projets</strong>, des <strong>ambitions</strong>, se sentir en <strong>confiance avec soi-même et avec les autres</strong>.</p>
-                        <p>J’ai cherché à découvrir des méthodes de <strong>bien être</strong> et j’ai dévouvert et testé la <strong>kinésiologie</strong> à titre personnel, pour moi et pour mes propres enfants.</br> Cette approche a particulièrement retenu mon attention par sa pertinence, sa précision et son efficacité, et par son <strong>approche hollistique</strong>, c'est à dire en considérant la personne dans sa globalité.</p>
+                        <p>J’ai cherché à découvrir des méthodes de <strong>bien être</strong> et j’ai dévouvert et testé la <strong>kinésiologie</strong> à titre personnel, pour moi et pour mes propres enfants.</br> Cette approche a particulièrement retenu mon attention par sa pertinence, sa précision et son efficacité, et par son <strong>approche holistique</strong>, c'est à dire en considérant la personne dans sa globalité.</p>
                         <figure class="figure_right_large2">
                             <img class="figure_photo" src="images/diplome.jpg" alt="Certification de Kinésiologue" title="Certification de Kinésiologue - Cécile PETITJEAN"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
