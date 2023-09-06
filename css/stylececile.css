@@ -91,21 +91,21 @@ body .gotoTop a {
   src: url("ballw___-webfont.woff2") format("woff2"), url("ballw___-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /*réduit la période de blocage*/
+  font-display: block;
 }
 @font-face {
   font-family: "courgette", sans-serif;
   src: url("../fonts/courgette/Courgette-Regular.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "qwigley", sans-serif;
   src: url("../fonts/qwigley/Qwigley-Regular.ttf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 body {
   font-family: "Trebuchet MS", Arial, sans-serif;
