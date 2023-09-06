@@ -14,7 +14,6 @@
     flex-direction: row;
     align-items: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     font-size: $size_calendrier;
     color: $colour-secondary;
     justify-content: center;
@@ -39,10 +38,10 @@
 
 @mixin btn2 ($padding) {
     padding: $padding;
-    color: $colour-secondary;
     border: 0.1rem solid $colour-secondary;
     border-radius: 10px;
     background: rgba(226, 226, 226, 0.8);
+    color: $colour-link;
     text-decoration: none;
     cursor: pointer;
     &:hover {
@@ -54,11 +53,17 @@
 @mixin figure_article ($figure_side) {
     float: $figure_side;
     figcaption {
+        width: 180px;
         font-size: 0.7rem;
         text-align: center;
-    }
-    @media all and (max-width: 680px) {
-        float:none;
+        @media all and (max-width: 1024px) {
+            width: 130px;
+            font-size: 0.6rem;
+        }
+        @media all and (max-width: 680px) {
+            width: 80px;
+            font-size: 0.5rem;
+        }
     }
 }
 

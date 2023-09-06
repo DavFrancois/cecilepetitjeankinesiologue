@@ -62,8 +62,15 @@
     margin-left: 30px;
     min-width: 200px;
     @media all and (max-width: 1024px) {
-        min-width: 160px;
+        margin-left: 20px;
+        min-width: 140px;
     }
+    @media all and (max-width: 680px) {
+       display: none;
+        /*margin-left: 10px;
+        min-width: 70px;*/
+    }
+
     p {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -72,6 +79,9 @@
         color: $colour-secondary;
         @media all and (max-width: 1024px) {
             font-size : 1.2rem;
+        }
+        @media all and (max-width: 680px) {
+            font-size : 0.6rem;
         }
     }
     .vignette {
@@ -82,9 +92,13 @@
             height: 150px;
             @include box-shadowradius;
             @media all and (max-width: 1024px) {
-            width: 120px;
-            height: 120px;
-            }
+                width: 120px;
+                height: 120px;
+                }
+            @media all and (max-width: 680px) {
+                width: 50px;
+                height: 50px;
+                }
             &:hover {
                 box-shadow: 5px 5px 5px rgb(212, 70, 35);
                 cursor: pointer;          
@@ -103,7 +117,12 @@
             @media all and (max-width: 1024px) {
                 width: 120px;
                 }
-        }
+            @media all and (max-width: 680px) {
+                width: 50px;
+                font-size: 0.5rem;
+                bottom: 5px;
+                }
+            }
     }
 }
 
@@ -114,16 +133,22 @@
     grid-gap: 40px;
     margin: 30px 100px 30px 50px;
     @media all and (max-width: 1024px) {
-        margin: 0 100px 30px 50px;
-        min-width: 160px;
+        grid-gap: 30px;
+        margin: 0 80px 30px 50px;
     }
     @media all and (max-width: 680px) {
+        grid-gap: 10px;
         margin: 0 50px 30px 20px;
-        min-width: 160px;
     }
 
     h1 {
         margin-top: 35%;
+        @media all and (max-width: 1024px) {
+            font-size: 2rem;
+        }
+        @media all and (max-width: 680px) {
+            font-size: 0.9rem;
+        }
     }
     .vignette {
         position: relative;
@@ -131,16 +156,12 @@
             width: 100%;
             height: 100%;
             @include box-shadowradius;
-            @media all and (max-width: 1024px) {
-                width: 100%;
-                height: 100%;
-            }
         }
         .text {
             width: 100%;
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
-            min-height: 1.52rem;
+            min-height: 1.5rem;
             bottom: 25px;
             position:absolute;
             text-align: center;
@@ -151,7 +172,13 @@
             @media all and (max-width: 1024px) {
                 bottom: 15px;
                 width: 100%;
-                font-size: 0.9rem;
+                font-size: 1.1rem;
+            }
+            @media all and (max-width: 680px) {
+                bottom: 10px;
+                width: 100%;
+                font-size: 0.7rem;
+                min-height: 1.3rem;
             }
         }
         .vignette_text--hover {

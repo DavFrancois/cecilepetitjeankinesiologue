@@ -11,6 +11,8 @@ footer {
             margin-left: 20px;
         }
         @media all and (max-width: 730px) {
+            margin-left: 10px;
+            margin-right: 10px;
             align-content: center;
             flex-wrap: wrap;
         }
@@ -25,6 +27,9 @@ footer {
             @media all and (max-width: 1024px) {
                 @include marquececile(2rem);
             }
+            @media all and (max-width: 680px) {
+                @include marquececile(1.5rem);
+            }
         }
         h2 {
             font-family: serif, arial;
@@ -35,9 +40,7 @@ footer {
                 font-size: 1.2rem;
             }
             @media all and (max-width: 730px) {
-                font-size: 1.1rem;
-                margin-left: 10px;
-                margin-right: 10px;
+                font-size: 1rem;
             }
         }
         .btn {
@@ -49,7 +52,7 @@ footer {
                 font-size: 0.8rem;
             }
             @media all and (max-width: 730px) {
-                margin-right: 10px;
+                font-size: 0.7rem;
             }
         }
         .reseaux img {
@@ -63,8 +66,8 @@ footer {
                 margin: 5px;
             }
             @media all and (max-width: 730px) {
-                margin-left: 5px;
-                margin-right: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
         .snk {
@@ -75,6 +78,9 @@ footer {
             align-items: center;
             @media all and (max-width: 1024px) {
                 width: 130px;
+            }
+            @media all and (max-width: 730px) {
+                width: 100px;
             }
             p {
                 font-size: 0.8rem;
@@ -110,6 +116,9 @@ footer {
             @media all and (max-width: 1024px) {
                 font-size: 0.7rem;
             }
+            @media all and (max-width: 730px) {
+                font-size: 0.6rem;
+            }
         }
         p {
             margin-left:10px;
@@ -118,6 +127,9 @@ footer {
             font-style: italic;
             @media all and (max-width: 1024px) {
                 font-size: 0.7rem;
+            }
+            @media all and (max-width: 730px) {
+                font-size: 0.6rem;
             }
         }
     }

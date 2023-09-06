@@ -19,6 +19,11 @@
             margin-left: 10px;
             margin-right: 10px;
         }
+        @media all and (max-width: 680px) {
+            width: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
         &_image {
             width: 90px;
             height: 90px;
@@ -28,8 +33,8 @@
                 height: 85px;
             }
             @media all and (max-width: 630px) {
-                width: 50px;
-                height: 50px;
+                width: 45px;
+                height: 45px;
             }        
         }
         &_calendrier {
@@ -73,7 +78,7 @@
             font-size: 1.5rem;
         }
         @media all and (max-width: 630px) {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
 }
