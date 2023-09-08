@@ -40,7 +40,8 @@
                         <figure class="figure_right_large2">
                                 <img class="figure_photo" src="images/main.jpg" alt="I can do it" title="I can do it - Cécile PETITJEAN"/>
                             </figure>
-                        <p>Basée sur la <strong>mémoire cellulaire</strong>, la kinésiologie utilise un <strong>test musculaire</strong>, très doux et sans effort, pour entrer en dialogue avec votre corps, et avoir accès à des informations oubliées, ou parfois refoulées.</p>
+                        <p>Cette méthode prend ses racines dans les années 40 avec des chiropraticiens qui feront le lien entre le tonus musculaire et les organes. Basée sur la <strong>mémoire cellulaire</strong>, la kinésiologie utilise un <strong>test musculaire</strong>, très doux et sans effort, pour entrer en dialogue avec votre corps, et avoir accès à des informations oubliées, ou parfois refoulées.</p>
+                        <p>La spécificité et la pertinence toute particulière de la kinésiologie est que le <strong>test neuro-musculaire</strong> permet d'accéder à <strong>l'inconscient</strong> contrairement à d'autres techniques qui vont se limiter à la partie consciente.</p>
                         <p>Le corps gardant tout en mémoire à chaque instant de la vie, certains évènements parfois anciens s’impriment, laissent une « empreinte », et peuvent bloquer ou gêner l’avancée dans notre chemin de vie.</p>
                         <h2>« Tout ce qui ne s’exprime pas s’imprime »</br>J. Salomé</h2>
                         <p>Le rôle du <strong>kinésiologue</strong> est donc de vous aider à :</p>

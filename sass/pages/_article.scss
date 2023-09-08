@@ -393,7 +393,7 @@ article {
 }
 
 .calendrier {
-    @include rendez_vous (2.3rem);
+    @include rendez_vous (2rem);
     @media all and (max-width: 1024px) {
         @include rendez_vous (1.8rem);
     }

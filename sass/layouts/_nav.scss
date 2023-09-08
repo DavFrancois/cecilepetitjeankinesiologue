@@ -130,11 +130,11 @@
     display:grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    margin: 30px 100px 30px 50px;
+    grid-gap: 80px;
+    margin: 30px 200px 30px 100px;
     @media all and (max-width: 1024px) {
         grid-gap: 30px;
-        margin: 0 80px 30px 50px;
+        margin: 0 80px 30px 10px;
     }
     @media all and (max-width: 680px) {
         grid-gap: 10px;
