@@ -43,11 +43,11 @@
                         <p>Cette méthode prend ses racines dans les années 40 avec des chiropraticiens qui feront le lien entre le tonus musculaire et les organes. Basée sur la <strong>mémoire cellulaire</strong>, la kinésiologie utilise un <strong>test musculaire</strong>, très doux et sans effort, pour entrer en dialogue avec votre corps, et avoir accès à des informations oubliées, ou parfois refoulées.</p>
                         <p>La spécificité et la pertinence toute particulière de la kinésiologie est que le <strong>test neuro-musculaire</strong> permet d'accéder à <strong>l'inconscient</strong> contrairement à d'autres techniques qui vont se limiter à la partie consciente.</p>
                         <p>Le corps gardant tout en mémoire à chaque instant de la vie, certains évènements parfois anciens s’impriment, laissent une « empreinte », et peuvent bloquer ou gêner l’avancée dans notre chemin de vie.</p>
-                        <h2>« Tout ce qui ne s’exprime pas s’imprime »</br>J. Salomé</h2>
+                        <h2>« Tout ce qui ne s’exprime pas s’imprime »<br />J. Salomé</h2>
                         <p>Le rôle du <strong>kinésiologue</strong> est donc de vous aider à :</p>
                         <ul>
-                            <li>Identifier les causes de conflits et de blocages internes, parfois inconscients, qui provoquent des tensions physiques, psycho-émotionnelles, un mal-être ou des comportements inadaptés.</br><em>Le kinésiologue sert d'interprète au langage de votre corps.</em></li>
-                            <li>Libérer les stress et le poids des charges émotionnelles à l'aide d'équilibrations et de corrections appropriées.</br><em>Le kinésiologue vous aide à « reprogrammer » votre système de fonctionnement pour retrouver un équilibre.</em></li>
+                            <li>Identifier les causes de conflits et de blocages internes, parfois inconscients, qui provoquent des tensions physiques, psycho-émotionnelles, un mal-être ou des comportements inadaptés.<br /><em>Le kinésiologue sert d'interprète au langage de votre corps.</em></li>
+                            <li>Libérer les stress et le poids des charges émotionnelles à l'aide d'équilibrations et de corrections appropriées.<br /><em>Le kinésiologue vous aide à « reprogrammer » votre système de fonctionnement pour retrouver un équilibre.</em></li>
                         </ul>
                         <p>C’est une <strong>approche globale</strong>, qui vise à accompagner les personnes vers un mieux-être général, un meilleur <strong>équilibre mental, émotionnel, physique et énergétique</strong>.</p>
                     </div>
@@ -90,7 +90,7 @@
                             <li><strong>Douleurs</strong> sans raison apparente, qui ne passent pas malgré le suivi médical</li>
                             <li>...etc. Cette liste n'est pas exhaustive.</li>
                         </ul>
-                        <h2>« Vous êtes maître de votre vie et qu’importe votre prison,</br>vous en avez les clefs »  Dalaï Lama</h2>
+                        <h2>« Vous êtes maître de votre vie et qu’importe votre prison,<br />vous en avez les clefs »  Dalaï Lama</h2>
                     </div>
                     <?php include('calendrier.php'); ?>
 

@@ -49,7 +49,7 @@
                             <li class="paroles_1">« Les autres sont meilleurs que moi »</li>
                             <li class="paroles_1">« Il n’y a que moi qui n’y arrive pas »</li>
                         </ul>
-                        <p></br>Elles peuvent engendrer aussi des <strong>problèmes de comportement</strong> : agitation, colères, crises, enfant perturbateur en classe, insolent, ou au contraire enfant éteint, trop timide, même « victime ».</p>
+                        <p><br />Elles peuvent engendrer aussi des <strong>problèmes de comportement</strong> : agitation, colères, crises, enfant perturbateur en classe, insolent, ou au contraire enfant éteint, trop timide, même « victime ».</p>
                         <div class="paroles">
                             <ul>
                                 <li>

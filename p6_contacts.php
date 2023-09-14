@@ -60,7 +60,7 @@
                     <div class="pair">
                         <h1>Horaires des consultations</h1>
                         <ul>
-                            <li>Au cabinet du Centre des Pépites du Loup à Saint-Malo : <strong>mardi, vendredi et samedi de 9h à 19h30</strong></br><a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
+                            <li>Au cabinet du Centre des Pépites du Loup à Saint-Malo : <strong>mardi, vendredi et samedi de 9h à 19h30</strong><br /><a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
 </li>
                             <li>A domicile : me consulter</li>
                         </ul>
@@ -73,7 +73,7 @@
                         </ul>
                         <p>Remboursement possible selon les mutuelles au titre des forfaits prévention, mieux être ou médecine douce.</p>
                         <p>Durée d'une séance : environ <strong>1h30</strong></p>
-                        <h6></br>* : paiement en espèces ou par chèque uniquement</br>Toute séance programmée et non annulée au moins 48h à l'avance sera due.</h6>
+                        <h6><br />* : paiement en espèces ou par chèque uniquement<br />Toute séance programmée et non annulée au moins 48h à l'avance sera due.</h6>
                     </div>
                     <div class="pair">
                         <h1>Autres liens et partenaires</h1>
