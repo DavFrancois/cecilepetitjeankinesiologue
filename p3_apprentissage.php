@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head> <!-- Entête de la page -->
-		<title>Cécile PETITJEAN - Kinésiologue - Aide aux apprentissages</title>
+		<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XVJRDS582"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4XVJRDS582'); </script>
+        <title>Cécile PETITJEAN - Kinésiologue - Aide aux apprentissages</title>
         <?php include('meta.php'); ?>
 	</head>
 
