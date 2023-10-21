@@ -33,7 +33,7 @@
 				
                 <article>
                     <div class="impair">
-                        <h1>Coordonnées</h1>
+                        <h2>Coordonnées</h2>
                         <p>Cécile Petitjean <strong>Kinésiologue</strong>.</p>
                         <ul>
                             <li>Mobile : <em>06 40 08 13 82</em></li>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="pair">
-                        <h1>Horaires des consultations</h1>
+                        <h2>Horaires des consultations</h2>
                         <ul>
                             <li>Au cabinet du Centre des Pépites du Loup à Saint-Malo : <strong>mardi, vendredi et samedi de 9h à 19h30</strong><br /><a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
 </li>
@@ -79,7 +79,7 @@
                         <h6><br />* : paiement en espèces ou par chèque uniquement<br />Toute séance programmée et non annulée au moins 48h à l'avance sera due.</h6>
                     </div>
                     <div class="pair">
-                        <h1>Autres liens et partenaires</h1>
+                        <h2>Autres liens et partenaires</h2>
                         <ul class="partenaires">
                             <li><img class="partenaire_logo" src="images/logo_ektc.png" alt="Logo EKTC" title="EKTC">Ecole de Kinésiologie et Techniques Complémentaires : <a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC"> EKTC</a></li>
                             <li><img class="partenaire_logo" src="images/logo.loup.webp" alt="Logo Pépites du Loup" title="Les Pépites du Loup" >Laboratoire d'Outils Utiles pour Parents : <a href="https://www.lespepitesduloup.fr/"  target="_blank" title="Lien vers le site Les Pépites du Loup"> Les Pépites du Loup</a></li>

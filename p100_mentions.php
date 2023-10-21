@@ -2,6 +2,8 @@
 	<head> <!-- Entête de la page -->
         <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XVJRDS582"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4XVJRDS582'); </script>
 		<title>Cécile PETITJEAN - Kinésiologue - Mentions légales</title>
+        <meta name="description" content="Cécile PETITJEAN, Kinésiologue certifiée, mentions légales du site.">
+
         <?php include('meta.php'); ?>
 	</head>
 

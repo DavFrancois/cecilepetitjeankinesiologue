@@ -1277,7 +1277,7 @@ article .paroles_2 {
     font-weight: 200;
   }
 }
-article h1 {
+article h2 {
   margin-bottom: 10px;
   padding-top: 15px;
   font-size: 1.8rem;
@@ -1286,16 +1286,16 @@ article h1 {
   color: green;
 }
 @media all and (max-width: 1024px) {
-  article h1 {
+  article h2 {
     font-size: 1.3rem;
   }
 }
 @media all and (max-width: 680px) {
-  article h1 {
+  article h2 {
     font-size: 0.8rem;
   }
 }
-article h2 { /*citations*/
+article q { /*citations*/
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: courgette, fallinlove, serif;
@@ -1305,13 +1305,13 @@ article h2 { /*citations*/
   color: rgb(238, 63, 40);
 }
 @media all and (max-width: 1024px) {
-  article h2 {
+  article q {
     margin-top: 0px;
     font-size: 1.1rem;
   }
 }
 @media all and (max-width: 680px) {
-  article h2 {
+  article q {
     margin-top: 0px;
     font-size: 0.8rem;
   }
@@ -1397,12 +1397,12 @@ article .qui {
   border-radius: 20px;
   background-color: rgb(196, 228, 193);
 }
-article .qui h1 {
+article .qui h2 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 @media all and (max-width: 1024px) {
-  article .qui h1 {
+  article .qui h2 {
     font-size: 1rem;
   }
 }

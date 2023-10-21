@@ -33,7 +33,7 @@
 				
                 <article> <!--contenu-->
                     <div class="centre">
-                        <h1>Comment se déroule une séance de kinésiologie ?</h1>
+                        <h2>Comment se déroule une séance de kinésiologie ?</h2>
                         <figure class="figure_right_large">
                             <img class="figure_photo" src="images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>

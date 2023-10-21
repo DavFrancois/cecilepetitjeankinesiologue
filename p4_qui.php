@@ -33,7 +33,7 @@
                 
                 <article> 
                     <div class="qui">
-                        <h1>Qui suis-je ?</h1>
+                        <h2>Qui suis-je ?</h2>
                         <figure class="figure_left">
                             <img class="figure_photo" src="images/cecile_ext.jpg" alt="Cécile PETITJEAN photo" title="Cécile PETITJEAN - Kinésiologue"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>

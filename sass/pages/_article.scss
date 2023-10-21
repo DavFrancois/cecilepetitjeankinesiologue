@@ -138,11 +138,11 @@ article {
         @media all and (max-width: 1024px) {
             font-size: 0.7rem;
             line-height: 0.9rem;
-            font-weight: 200;;
+            font-weight: 200;
         }
 }
             
-    h1 {
+    h2 {
         margin-bottom: 10px;
         padding-top: 15px;
         font-size: 1.8rem;
@@ -156,7 +156,7 @@ article {
             font-size: 0.8rem;
         }
     }
-    h2 { /*citations*/
+    q { /*citations*/
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: courgette, fallinlove, serif;
@@ -241,7 +241,7 @@ article {
         padding: 0 20px 10px 30px;
         border-radius: 20px;
         background-color: rgb(196, 228, 193);
-        h1 {
+        h2 {
             margin-bottom: 1.5rem;
             text-align: center;
             @media all and (max-width: 1024px) {
