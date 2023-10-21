@@ -3,6 +3,8 @@
 	<head> <!-- Entête de la page -->
         <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XVJRDS582"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4XVJRDS582'); </script>
 		<title>Cécile PETITJEAN - Kinésiologue - Une séance de kinésiologie</title>
+        <meta name="description" content="Comment se déroule une scéance de kinésiologie : échange, problématique, test musculaire, correction, rééquilibrage. Réservation en ligne.">
+
         <?php include('meta.php'); ?>
 	</head>
 

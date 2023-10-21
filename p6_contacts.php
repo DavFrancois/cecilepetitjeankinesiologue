@@ -3,6 +3,8 @@
 	<head> <!-- Entête de la page -->
         <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XVJRDS582"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4XVJRDS582'); </script>
 		<title>Cécile PETITJEAN - Kinésiologue - Contacts, tarifs</title>
+        <meta name="description" content="Consultation en kinésiologie et aide aux apprentissages sur Saint-Malo, tous les jours sur rdv. Contacts et tarifs. Plan d'accés. Réservation en ligne.">
+
         <?php include('meta.php'); ?>
 	</head>
 
