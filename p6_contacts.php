@@ -70,7 +70,7 @@
                         <p>Les horaires peuvent varier selon les vacances et les jours fériés. N'hésitez pas à me consulter en cas de doute ou de difficulté afin d'essayer de trouver une solution.</p>
                     </div>
                     <div class="impair">
-                        <h1>Tarifs*</h1>
+                        <h2>Tarifs*</h2>
                         <ul>
                             <li>KINESIOLOGIE séance adulte ou enfant : 60 €</li>
                         </ul>
