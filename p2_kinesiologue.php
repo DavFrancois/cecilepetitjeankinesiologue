@@ -44,7 +44,7 @@
                         <p>Cette méthode prend ses racines dans les années 40 avec des chiropraticiens qui feront le lien entre le tonus musculaire et les organes. Basée sur la <strong>mémoire cellulaire</strong>, la kinésiologie utilise un <strong>test musculaire</strong>, très doux et sans effort, pour entrer en dialogue avec votre corps, et avoir accès à des informations oubliées, ou parfois refoulées.</p>
                         <p>La spécificité et la pertinence toute particulière de la kinésiologie est que le <strong>test neuro-musculaire</strong> permet d'accéder à <strong>l'inconscient</strong> contrairement à d'autres techniques qui vont se limiter à la partie consciente.</p>
                         <p>Le corps gardant tout en mémoire à chaque instant de la vie, certains évènements parfois anciens s’impriment, laissent une « empreinte », et peuvent bloquer ou gêner l’avancée dans notre chemin de vie.</p>
-                        <q>« Tout ce qui ne s’exprime pas s’imprime »<br />J. Salomé</q>
+                        <h3>« Tout ce qui ne s’exprime pas s’imprime »<br />J. Salomé</h3>
                         <p>Le rôle du <strong>kinésiologue</strong> est donc de vous aider à :</p>
                         <ul>
                             <li>Identifier les causes de conflits et de blocages internes, parfois inconscients, qui provoquent des tensions physiques, psycho-émotionnelles, un mal-être ou des comportements inadaptés.<br /><em>Le kinésiologue sert d'interprète au langage de votre corps.</em></li>
@@ -69,7 +69,7 @@
                             <li>Accéder à tout son <strong>potentiel</strong> et élargir « son possible ».</li>
                         </ul>
                         <p>La Kinésiologie est compatible avec tout traitement médical. Elle ne remplace pas la médecine, ni les médicaments prescrits par le médecin car elle n'établit pas de diagnostic.<br /><br />C’est une <strong>technique non médicale</strong>.</p>
-                        <q>Vers une meilleure version de vous-même…</q>
+                        <h3>Vers une meilleure version de vous-même…</h3>
                     </div>
                     <div class="impair">
                         <h2>La kinésiologie, c'est pour qui ?</h2>
@@ -91,7 +91,7 @@
                             <li><strong>Douleurs</strong> sans raison apparente, qui ne passent pas malgré le suivi médical</li>
                             <li>...etc. Cette liste n'est pas exhaustive.</li>
                         </ul>
-                        <q>« Vous êtes maître de votre vie et qu’importe votre prison,<br />vous en avez les clefs »  Dalaï Lama</q>
+                        <h3>« Vous êtes maître de votre vie et qu’importe votre prison,<br />vous en avez les clefs »  Dalaï Lama</h3>
                     </div>
                     <?php include('calendrier.php'); ?>
 

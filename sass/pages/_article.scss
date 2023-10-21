@@ -129,7 +129,7 @@ article {
         @media all and (max-width: 680px) {
             font-size: 0.6rem;
             line-height: 0.9rem;
-            font-weight: 200;;
+            font-weight: 300;;
         }
     }
     .paroles_2 {
@@ -138,7 +138,7 @@ article {
         @media all and (max-width: 1024px) {
             font-size: 0.7rem;
             line-height: 0.9rem;
-            font-weight: 200;
+            font-weight: 300;
         }
 }
             
@@ -156,7 +156,7 @@ article {
             font-size: 0.8rem;
         }
     }
-    q { /*citations*/
+    h3 { /*citations*/
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: courgette, fallinlove, serif;
@@ -423,5 +423,6 @@ article {
 .mentions {
     h3 {
         margin-top: 2rem;
+        font-size: 1.6rem;
     }
 }

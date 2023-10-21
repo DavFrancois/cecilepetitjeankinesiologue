@@ -272,6 +272,12 @@ em {
 @media all and (max-width: 1024px) {
   .btn4 {
     font-size: 0.7rem;
+    line-height: 0.9em;
+  }
+}
+@media all and (max-width: 680px) {
+  .btn4 {
+    font-size: 0.5rem;
   }
 }
 
@@ -662,13 +668,24 @@ em {
 }
 @media all and (max-width: 1024px) {
   .section_nav-accueil .vignette .vignette_text--hover {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px 10px 10px 10px;
     width: 100%;
     height: 100%;
     font-size: 0.7em;
     line-height: 1.1rem;
   }
+}
+@media all and (max-width: 680px) {
+  .section_nav-accueil .vignette .vignette_text--hover {
+    padding: 7px 5px 7px 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 0.4rem;
+    line-height: 0.7rem;
+  }
+}
+.section_nav-accueil .vignette .vignette_text--hover .avertissement {
+  font-size: 0.7rem;
 }
 .section_nav-accueil .vignette:hover .vignette_text--hover {
   display: flex;
@@ -854,14 +871,14 @@ footer .heading .cecile_footer {
 @media all and (max-width: 1024px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
 }
 @media all and (max-width: 680px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: 500;
   }
 }
@@ -939,7 +956,7 @@ footer .heading .snk p {
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk p {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 @media all and (max-width: 730px) {
@@ -954,12 +971,13 @@ footer .heading .snk img {
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk img {
-    height: 40px;
+    height: 35px;
   }
 }
 footer .mentions {
   padding-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 footer .mentions a {
@@ -977,6 +995,8 @@ footer .mentions a a:visited {
 @media all and (max-width: 730px) {
   footer .mentions a {
     font-size: 0.6rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 footer .mentions p {
@@ -1260,7 +1280,7 @@ article .paroles_1 {
   article .paroles_1 {
     font-size: 0.6rem;
     line-height: 0.9rem;
-    font-weight: 200;
+    font-weight: 300;
   }
 }
 article .paroles_2 {
@@ -1274,7 +1294,7 @@ article .paroles_2 {
   article .paroles_2 {
     font-size: 0.7rem;
     line-height: 0.9rem;
-    font-weight: 200;
+    font-weight: 300;
   }
 }
 article h2 {
@@ -1295,7 +1315,7 @@ article h2 {
     font-size: 0.8rem;
   }
 }
-article q { /*citations*/
+article h3 { /*citations*/
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: courgette, fallinlove, serif;
@@ -1305,13 +1325,13 @@ article q { /*citations*/
   color: rgb(238, 63, 40);
 }
 @media all and (max-width: 1024px) {
-  article q {
+  article h3 {
     margin-top: 0px;
     font-size: 1.1rem;
   }
 }
 @media all and (max-width: 680px) {
-  article q {
+  article h3 {
     margin-top: 0px;
     font-size: 0.8rem;
   }
@@ -1643,6 +1663,7 @@ article .partenaires li {
 
 .mentions h3 {
   margin-top: 2rem;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=stylececile.css.map */

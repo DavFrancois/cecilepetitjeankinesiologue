@@ -37,7 +37,7 @@
                         <figure class="figure_right_large">
                             <img class="figure_photo" src="images/cabinet5.jpg" alt="Cabinet Cécile Petitjean" title="Cabinet Cécile Petitjean"/>
                             <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
-                        </figure><p><br />Une séance dure <strong>environ 1H30</strong>.</p>
+                        </figure><p><br />Une séance dure <strong>environ 1H15</strong>.</p>
                         <br />
                         <ul>
                             <li><p>Après un <strong>entretien</strong> pendant lequel vous m’exposerez votre problématique, nous évoquerons ensemble les éléments bloquants, si vous les connaissez, vous empêchant d’accéder à votre objectif, ou à votre état désiré.</p><br /></li>
