@@ -13,7 +13,7 @@
             <?php include('header.php'); ?>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="index.html" title="Accueil">Accueil</a></li>
+                    <li><a href="accueil.html" title="Accueil">Accueil</a></li>
                     <li><a href="p2_kinesiologue.php" title="La kinésiologie, c'est quoi ?">Kinésiologie</a></li>
                     <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>

@@ -86,13 +86,14 @@ body .gotoTop a {
 
 /*fondations du site comme police, norme, box-sizing*/
 /* Définition des polices personnalisées */
-@font-face {
-  font-family: "ballpark", sans-serif;
-  src: url("ballw___-webfont.woff2") format("woff2"), url("ballw___-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
+/*@font-face {
+    font-family: 'ballpark', sans-serif;
+    src: url('ballw___-webfont.woff2') format('woff2'),
+         url('ballw___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block; 
+}*/
 @font-face {
   font-family: "courgette", sans-serif;
   src: url("../../fonts/courgette/Courgette-Regular.ttf");
