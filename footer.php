@@ -13,7 +13,7 @@
         </div>
         <div class="snk">
             <p>Adhérente au</br>Syndicat National des Kinésiologues</p>
-            <a href="https://www.snkinesio.fr/" target="_blank"><img src="images/logo-snk.gif" alt="Logo SNK" title="Syndicat National des Kinésiologues" ></a>
+            <a href="https://www.snkinesio.fr/" target="_blank"><img src="images/logo_snk_150.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" ></a>
         </div>
     </div>
     <div class="mentions">

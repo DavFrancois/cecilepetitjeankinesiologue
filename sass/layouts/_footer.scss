@@ -25,10 +25,10 @@ footer {
                 @include marquececile(2.5rem);
             }
             @media all and (max-width: 1024px) {
-                @include marquececile(1.8rem);
+                @include marquececile(1.6rem);
             }
             @media all and (max-width: 680px) {
-                @include marquececile(1.25rem);
+                @include marquececile(1.2rem);
             }
         }
         h2 {
@@ -49,10 +49,10 @@ footer {
             font-weight: 600;
             text-decoration: none;
             @media all and (max-width: 1024px) {
-                font-size: 0.8rem;
+                font-size: 0.75rem;
             }
             @media all and (max-width: 730px) {
-                font-size: 0.7rem;
+                font-size: 0.65rem;
             }
         }
         .reseaux img {
@@ -86,18 +86,24 @@ footer {
                 text-align: right;
                 vertical-align: middle;
                 @media all and (max-width: 1024px) {
-                    font-size: 0.7rem;
+                    font-size: 0.6rem;
                 }
                 @media all and (max-width: 730px) {
                     display:none;
                 }
             }
             img {
-                height: 40px;
+                height: 35px;
+                width: 112px;
                 margin-left: 10px;
                 float: right;
                 @media all and (max-width: 1024px) {
-                    height: 35px;
+                    height: 25px;
+                    width: 80px;
+                }
+                @media all and (max-width: 7300px) {
+                    height: 18px;
+                    width: 56px;
                 }
             }
         }

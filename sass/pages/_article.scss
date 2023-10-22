@@ -396,9 +396,15 @@ article {
         background-color: rgb(194, 196, 195);
     }
     img {
-        width: 100%;
+        width: 350px;
         margin-top:5px;
         border-radius: 15px;
+        @media all and (max-width: 1024px) {
+            width: 250px;
+        }  
+        @media all and (max-width: 730px) {
+            width: 200px;
+        }  
     }
     h3 {
         margin-bottom: 0.5rem;

@@ -1,6 +1,6 @@
 <!-- header_heading.php -->
 <div class="header_heading">
-    <img class="header_heading_image" src="images/cecile_photo3.jpg" alt="Cécile PETITJEAN photo" title="Cécile PETITJEAN" id="cecile_photo"/>
+    <img class="header_heading_image" src="images/cecile_photo3_400.webp" alt="Cécile PETITJEAN photo" title="Cécile PETITJEAN" id="cecile_photo"/>
     <div class="header_heading_name">
         <h1>Cécile Petitjean</h1>
         <h2>Kinésiologue & Aide aux apprentissages</h2>

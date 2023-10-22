@@ -698,7 +698,7 @@ em {
   height: 100px;
   width: 100%;
   position: relative;
-  background-image: url(../images/coquelicot6.jpg);
+  background-image: url(../images/coquelicot6.webp);
   background-size: cover;
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }
@@ -724,7 +724,7 @@ em {
   height: 350px;
   width: 100%;
   position: relative;
-  background-image: url(../images/coquelicot6.jpg);
+  background-image: url(../images/coquelicot6.webp);
   background-size: cover;
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }

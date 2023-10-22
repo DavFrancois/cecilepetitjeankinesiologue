@@ -716,7 +716,7 @@ em {
   height: 100px;
   width: 100%;
   position: relative;
-  background-image: url(../images/coquelicot6.jpg);
+  background-image: url(../images/coquelicot6.webp);
   background-size: cover;
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }
@@ -742,7 +742,7 @@ em {
   height: 350px;
   width: 100%;
   position: relative;
-  background-image: url(../images/coquelicot6.jpg);
+  background-image: url(../images/coquelicot6.webp);
   background-size: cover;
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }
@@ -872,14 +872,14 @@ footer .heading .cecile_footer {
 @media all and (max-width: 1024px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
   }
 }
 @media all and (max-width: 680px) {
   footer .heading .cecile_footer {
     font-family: qwigley, serif, arial;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
 }
@@ -907,12 +907,12 @@ footer .heading .btn {
 }
 @media all and (max-width: 1024px) {
   footer .heading .btn {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
 @media all and (max-width: 730px) {
   footer .heading .btn {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 }
 footer .heading .reseaux img {
@@ -957,7 +957,7 @@ footer .heading .snk p {
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 @media all and (max-width: 730px) {
@@ -966,13 +966,21 @@ footer .heading .snk p {
   }
 }
 footer .heading .snk img {
-  height: 40px;
+  height: 35px;
+  width: 112px;
   margin-left: 10px;
   float: right;
 }
 @media all and (max-width: 1024px) {
   footer .heading .snk img {
-    height: 35px;
+    height: 25px;
+    width: 80px;
+  }
+}
+@media all and (max-width: 7300px) {
+  footer .heading .snk img {
+    height: 18px;
+    width: 56px;
   }
 }
 footer .mentions {
@@ -1603,9 +1611,19 @@ article .partenaires li {
   background-color: rgb(194, 196, 195);
 }
 .accroche_temoignage img {
-  width: 100%;
+  width: 350px;
   margin-top: 5px;
   border-radius: 15px;
+}
+@media all and (max-width: 1024px) {
+  .accroche_temoignage img {
+    width: 250px;
+  }
+}
+@media all and (max-width: 730px) {
+  .accroche_temoignage img {
+    width: 200px;
+  }
 }
 .accroche_temoignage h3 {
   margin-bottom: 0.5rem;
