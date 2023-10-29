@@ -75,7 +75,7 @@
                             <li>KINESIOLOGIE séance adulte ou enfant : 60 €</li>
                         </ul>
                         <p>Remboursement possible selon les mutuelles au titre des forfaits prévention, mieux être ou médecine douce.</p>
-                        <p>Durée d'une séance : environ <strong>1h30</strong></p>
+                        <p>Durée d'une séance : environ <strong>1h15</strong></p>
                         <h6><br />* : paiement en espèces ou par chèque uniquement<br />Toute séance programmée et non annulée au moins 48h à l'avance sera due.</h6>
                     </div>
                     <div class="pair">

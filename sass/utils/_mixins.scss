@@ -79,8 +79,9 @@
 }
 
 @mixin paroles ($parole_size) {
-    font-family: courgette, Arial, sans-serif;
+    font-family: 'courgette', Arial, sans-serif;
     font-weight:lighter;
+    font-style: italic;
     list-style-type: none;
     font-size: $parole_size;
 }
