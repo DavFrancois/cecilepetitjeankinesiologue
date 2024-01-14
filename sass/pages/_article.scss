@@ -367,6 +367,21 @@ article {
     }
 }
 
+.actualités {
+    /*width: 80%;*/
+    margin-left: 70px;
+    margin-right: 200px;
+    align-items: center;
+    @media all and (max-width: 1024px) {
+        margin-left: 40px;
+        margin-right: 100px;
+    }
+    @media all and (max-width: 680px) {
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+}
+
 .accroche_temoignage {
     margin: auto;
     display: grid;
