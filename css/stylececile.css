@@ -10,8 +10,10 @@
 
 body {
   position: relative;
-  background: url("../images/coquelicot.png") fixed no-repeat;
-  background-position: top 280px right 0px; /*fleur fixe*/
+  background: url("../images/coquelicot.png");
+  background-repeat: no-repeat;
+  background-position: top 380px right 10px; /*fleur*/
+  background-attachment: fixed;
   background-color: rgb(240, 240, 240);
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: rgb(5, 5, 5);
@@ -21,14 +23,14 @@ body {
 @media all and (max-width: 1024px) {
   body {
     background: url("../images/coquelicot_1024.png") fixed no-repeat;
-    background-position: top 250px right 10px; /*fleur fixe*/
+    background-position: top 350px right 10px; /*fleur fixe*/
     background-color: rgb(240, 240, 240);
   }
 }
 @media all and (max-width: 1024px) and (max-width: 680px) {
   body {
     background: url("../images/coquelicot_680.png") fixed no-repeat;
-    background-position: top 250px right 5px; /*fleur fixe*/
+    background-position: top 280px right 5px; /*fleur fixe*/
     background-color: rgb(240, 240, 240);
   }
 }
@@ -293,24 +295,32 @@ em {
   }*/
 }
 .header_heading {
-  width: 90%;
+  /*padding-right: 20%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 2px;
   margin-bottom: 5px;
+  height: 130px;
 }
 @media all and (max-width: 1024px) {
   .header_heading {
-    width: auto;
+    height: 100px;
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-@media all and (max-width: 680px) {
+@media all and (max-width: 830px) {
   .header_heading {
-    width: auto;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header_heading {
+    height: 60px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -327,7 +337,13 @@ em {
     height: 85px;
   }
 }
-@media all and (max-width: 630px) {
+@media all and (max-width: 830px) {
+  .header_heading_image {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media all and (max-width: 500px) {
   .header_heading_image {
     width: 45px;
     height: 45px;
@@ -343,9 +359,14 @@ em {
     width: 60px;
   }
 }
-@media all and (max-width: 630px) {
+@media all and (max-width: 830px) {
   .header_heading_calendrier {
-    width: 45px;
+    width: 50px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header_heading_calendrier {
+    width: 40px;
   }
 }
 .header_heading_name {
@@ -354,6 +375,38 @@ em {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.header_heading_postit {
+  z-index: 1;
+  width: 35%;
+  margin-left: -200px;
+  position: relative;
+  top: 40px;
+  right: -100px;
+}
+@media all and (max-width: 1024px) {
+  .header_heading_postit {
+    width: 35%;
+    margin-left: -150px;
+    top: 10px;
+    right: -80px;
+  }
+}
+@media all and (max-width: 830px) {
+  .header_heading_postit {
+    width: 35%;
+    margin-left: -100px;
+    top: 5px;
+    right: -50px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header_heading_postit {
+    width: 35%;
+    margin-left: -80px;
+    top: 5px;
+    right: -50px;
+  }
 }
 .header h1 {
   font-family: "qwigley", serif, arial;
@@ -370,10 +423,17 @@ em {
     font-weight: 500;
   }
 }
-@media all and (max-width: 630px) {
+@media all and (max-width: 830px) {
   .header h1 {
     font-family: "qwigley", serif, arial;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+@media all and (max-width: 500px) {
+  .header h1 {
+    font-family: "qwigley", serif, arial;
+    font-size: 1.1rem;
     font-weight: 500;
   }
 }
@@ -390,7 +450,12 @@ em {
     font-size: 1.5rem;
   }
 }
-@media all and (max-width: 630px) {
+@media all and (max-width: 830px) {
+  .header h2 {
+    font-size: 0.9rem;
+  }
+}
+@media all and (max-width: 500px) {
   .header h2 {
     font-size: 0.8rem;
   }
@@ -399,13 +464,8 @@ em {
 .header_nav {
   background-color: rgb(226, 226, 226);
 }
-@media all and (max-width: 1024px) {
-  .header_nav {
-    /*width: 150px;
-    margin-right: 0px;*/
-  }
-}
 .header_nav ul {
+  padding-right: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -413,9 +473,16 @@ em {
   flex-wrap: wrap;
   list-style-type: none;
   font-family: serif;
-  /*@media all and (max-width: 1024px) {
-      flex-direction: column;
-  }*/
+}
+@media all and (max-width: 1024px) {
+  .header_nav ul {
+    padding-right: 220px;
+  }
+}
+@media all and (max-width: 830px) {
+  .header_nav ul {
+    padding-right: 25%;
+  }
 }
 .header_nav a {
   padding: 0 25px 10px 20px;
@@ -500,6 +567,7 @@ em {
   position: relative;
 }
 .section_nav .vignette .image {
+  z-index: 3;
   width: 150px;
   height: 150px;
   box-shadow: 0px 4px 4px rgb(75, 83, 84);
@@ -738,6 +806,53 @@ em {
   }
 }
 
+.banniere_fermeture {
+  height: 150px;
+  width: 30%;
+  position: fixed;
+  background-image: url(../images/bon_secours_banniere.jpg);
+  background-size: cover;
+  background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
+}
+.banniere_fermeture p {
+  padding-top: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: arial, serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+@media all and (max-width: 1024px) {
+  .banniere_fermeture {
+    height: 50px;
+  }
+  .banniere_fermeture p {
+    padding-top: 15px;
+    font-size: 1.2rem;
+  }
+}
+.banniere_fermeture h3 { /*citations*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: courgette, fallinlove, serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  text-align: right;
+  color: rgb(238, 63, 40);
+}
+@media all and (max-width: 1024px) {
+  .banniere_fermeture h3 {
+    margin-top: 0px;
+    font-size: 1.1rem;
+  }
+}
+@media all and (max-width: 680px) {
+  .banniere_fermeture h3 {
+    margin-top: 0px;
+    font-size: 0.8rem;
+  }
+}
+
 .banniere-accueil {
   height: 350px;
   width: 100%;
@@ -747,20 +862,41 @@ em {
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }
 .banniere-accueil p {
-  padding-top: 200px;
-  color: #fff;
   text-align: center;
+  padding-top: 200px;
+  padding-right: 300px;
+  color: #fff;
   font-family: courgette, arial, serif;
   font-weight: 200;
   font-size: 4rem;
 }
 @media all and (max-width: 1024px) {
   .banniere-accueil {
+    height: 180px;
+  }
+  .banniere-accueil p {
+    padding-top: 100px;
+    padding-right: 200px;
+    font-size: 2.5rem;
+  }
+}
+@media all and (max-width: 1024px) and (max-width: 680px) {
+  .banniere-accueil {
+    margin-top: 0px;
+  }
+}
+@media all and (max-width: 680px) {
+  .banniere-accueil {
     height: 100px;
   }
   .banniere-accueil p {
     padding-top: 50px;
     font-size: 1.3rem;
+  }
+}
+@media all and (max-width: 680px) and (max-width: 680px) {
+  .banniere-accueil {
+    margin-top: 0px;
   }
 }
 

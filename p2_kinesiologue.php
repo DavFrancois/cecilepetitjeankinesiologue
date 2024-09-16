@@ -24,13 +24,13 @@
                     <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
                     <li><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
                 </ul>
+                <img class="postit" src="images/postit1.png" alt="fermeture" title="fermeture temporaire" id="coquelicot_entete"/>
             </nav>
         </header>    
 
             <div class="banniere"> <!--Bannière-->
                 <p>Il n'est jamais trop tard pour éclore !</p>
             </div>
-            
             <section>
                 <?php @include('section_nav.php'); ?> <!-- bandeau lateral de navigation -->
 
