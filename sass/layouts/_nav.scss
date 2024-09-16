@@ -1,10 +1,9 @@
 .header_nav {
     background-color: $colour-bggrey;
     @media all and (max-width: 1024px) {
-        /*width: 150px;
-        margin-right: 0px;*/
     }
     ul {
+        padding-right: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -12,10 +11,14 @@
         flex-wrap: wrap;
         list-style-type: none;
         font-family: serif;
-        /*@media all and (max-width: 1024px) {
-            flex-direction: column;
-        }*/
+        @media all and (max-width: 1024px) {
+            padding-right: 220px;
+            }
+        @media all and (max-width: 830px) {
+            padding-right: 25%;
+        }
     }
+
     & a {
         padding: 0 25px 10px 20px;
         font-size: 1.3rem;
@@ -33,7 +36,6 @@
             padding: 0 10px 10px 10px;
             font-size: 0.8rem;
             line-height: 1rem;
-
         }
         &:hover {
             background-color: $colour-activ;
@@ -88,6 +90,7 @@
         margin-bottom: 20px;
         position: relative;
         .image {
+            z-index: 3;
             width: 150px;
             height: 150px;
             @include box-shadowradius;
