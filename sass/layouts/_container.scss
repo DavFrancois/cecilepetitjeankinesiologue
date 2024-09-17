@@ -64,7 +64,6 @@
     }
 }
 
-
 .banniere-accueil {
     height: 350px;
     width: 100%;
@@ -74,33 +73,36 @@
     background-color: rgba(240,240,240,255); /*si l'image ne charge pas*/
     p {
         text-align: center ;
-        padding-top: 200px;
-        padding-right: 300px;
+        padding-top: 10%;
+        padding-right: 35%;
         color:$colour-white;
         font-family: courgette, arial, serif;
         font-weight: 200;
         font-size: 4rem; 
     }
     @media all and (max-width: 1024px) { 
+        padding-top: 5px;
+        padding-right: 5%;
         height: 180px;
         p {
-            padding-top: 100px;
-            padding-right: 200px;
             font-size: 2.5rem; 
         }
-            @media all and (max-width: 680px) {
+    @media all and (max-width: 830px) {
+        height: 150px;
+        padding-top: 5px;
+        padding-right: 5%;
         margin-top: 0px;
+        p {
+            font-size: 2rem; 
+        }
     }
     }
-    @media all and (max-width: 680px) {
+    @media all and (max-width: 500px) {
         height: 100px;
         p {
             padding-top: 50px;
             font-size: 1.3rem; 
         }
-            @media all and (max-width: 680px) {
-        margin-top: 0px;
-    }
     }
 
 }

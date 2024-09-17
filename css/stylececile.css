@@ -27,7 +27,14 @@ body {
     background-color: rgb(240, 240, 240);
   }
 }
-@media all and (max-width: 1024px) and (max-width: 680px) {
+@media all and (max-width: 680px) {
+  body {
+    background: url("../images/coquelicot_680.png") fixed no-repeat;
+    background-position: top 280px right 5px; /*fleur fixe*/
+    background-color: rgb(240, 240, 240);
+  }
+}
+@media all and (max-width: 680px) {
   body {
     background: url("../images/coquelicot_680.png") fixed no-repeat;
     background-position: top 280px right 5px; /*fleur fixe*/
@@ -295,34 +302,30 @@ em {
   }*/
 }
 .header_heading {
-  /*padding-right: 20%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 2px;
   margin-bottom: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: auto;
   height: 130px;
 }
 @media all and (max-width: 1024px) {
   .header_heading {
     height: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
 @media all and (max-width: 830px) {
   .header_heading {
-    height: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 60px;
   }
 }
 @media all and (max-width: 500px) {
   .header_heading {
-    height: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 50px;
   }
 }
 .header_heading_image {
@@ -378,34 +381,40 @@ em {
 }
 .header_heading_postit {
   z-index: 1;
-  width: 35%;
-  margin-left: -200px;
+  width: 38%;
+  margin-left: -38%;
   position: relative;
-  top: 40px;
-  right: -100px;
+  right: -4%;
+  top: 180%;
 }
 @media all and (max-width: 1024px) {
   .header_heading_postit {
     width: 35%;
-    margin-left: -150px;
-    top: 10px;
-    right: -80px;
+    top: 150%;
+    right: -5%;
+  }
+  .header_heading_postit:active {
+    visibility: hidden;
   }
 }
 @media all and (max-width: 830px) {
   .header_heading_postit {
     width: 35%;
-    margin-left: -100px;
-    top: 5px;
-    right: -50px;
+    top: 190%;
+    right: -4%;
+  }
+  .header_heading_postit:active {
+    visibility: hidden;
   }
 }
 @media all and (max-width: 500px) {
   .header_heading_postit {
-    width: 35%;
-    margin-left: -80px;
-    top: 5px;
-    right: -50px;
+    width: 50%;
+    top: 130%;
+    right: -4%;
+  }
+  .header_heading_postit:active {
+    width: 60%;
   }
 }
 .header h1 {
@@ -465,7 +474,7 @@ em {
   background-color: rgb(226, 226, 226);
 }
 .header_nav ul {
-  padding-right: 300px;
+  /*padding-right: 25%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -473,15 +482,13 @@ em {
   flex-wrap: wrap;
   list-style-type: none;
   font-family: serif;
+  /*@media all and (max-width: 1024px) {
+      padding-right: 220px;
+      }*/
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 500px) {
   .header_nav ul {
-    padding-right: 220px;
-  }
-}
-@media all and (max-width: 830px) {
-  .header_nav ul {
-    padding-right: 25%;
+    padding-right: 35%;
   }
 }
 .header_nav a {
@@ -863,8 +870,8 @@ em {
 }
 .banniere-accueil p {
   text-align: center;
-  padding-top: 200px;
-  padding-right: 300px;
+  padding-top: 10%;
+  padding-right: 35%;
   color: #fff;
   font-family: courgette, arial, serif;
   font-weight: 200;
@@ -872,31 +879,32 @@ em {
 }
 @media all and (max-width: 1024px) {
   .banniere-accueil {
+    padding-top: 5px;
+    padding-right: 5%;
     height: 180px;
   }
   .banniere-accueil p {
-    padding-top: 100px;
-    padding-right: 200px;
     font-size: 2.5rem;
   }
 }
-@media all and (max-width: 1024px) and (max-width: 680px) {
+@media all and (max-width: 1024px) and (max-width: 830px) {
   .banniere-accueil {
+    height: 150px;
+    padding-top: 5px;
+    padding-right: 5%;
     margin-top: 0px;
   }
+  .banniere-accueil p {
+    font-size: 2rem;
+  }
 }
-@media all and (max-width: 680px) {
+@media all and (max-width: 500px) {
   .banniere-accueil {
     height: 100px;
   }
   .banniere-accueil p {
     padding-top: 50px;
     font-size: 1.3rem;
-  }
-}
-@media all and (max-width: 680px) and (max-width: 680px) {
-  .banniere-accueil {
-    margin-top: 0px;
   }
 }
 
