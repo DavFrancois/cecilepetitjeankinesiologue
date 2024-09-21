@@ -1752,8 +1752,8 @@ article .partenaires li {
   }
 }
 .brindair p {
-  font-size: 2rem;
-  line-height: 2.3rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
 }
 @media all and (max-width: 1024px) {
   .brindair p {
@@ -1793,10 +1793,14 @@ article .partenaires li {
     grid-gap: 10px;
   }
 }
+.brindair .qr_code {
+  width: 70%;
+  padding-bottom: 20px;
+}
 .brindair img {
   width: 90%;
   margin-top: 5px;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
 }
 .brindair img:active {
   width: 200%;
