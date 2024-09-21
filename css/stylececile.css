@@ -474,7 +474,7 @@ em {
   background-color: rgb(226, 226, 226);
 }
 .header_nav ul {
-  /*padding-right: 25%;*/
+  padding-right: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -482,9 +482,6 @@ em {
   flex-wrap: wrap;
   list-style-type: none;
   font-family: serif;
-  /*@media all and (max-width: 1024px) {
-      padding-right: 220px;
-      }*/
 }
 @media all and (max-width: 500px) {
   .header_nav ul {
@@ -1724,9 +1721,7 @@ article .partenaires li {
 }
 
 .actualités {
-  /*width: 80%;*/
-  margin-left: 70px;
-  margin-right: 200px;
+  margin: 20px 150px 0 50px;
   align-items: center;
 }
 @media all and (max-width: 1024px) {
@@ -1740,6 +1735,72 @@ article .partenaires li {
     margin-left: 10px;
     margin-right: 50px;
   }
+}
+
+.brindair {
+  width: 100%;
+  margin: 20px 0 20px 0;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+  display: flex;
+  text-align: center;
+  background-color: rgb(235, 165, 165);
+}
+@media all and (max-width: 1024px) {
+  .brindair {
+    padding: 10px 10px 10px 10px;
+  }
+}
+.brindair p {
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+@media all and (max-width: 1024px) {
+  .brindair p {
+    font-size: 1.5rem;
+  }
+}
+@media all and (max-width: 680px) {
+  .brindair p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+@media all and (max-width: 600px) {
+  .brindair p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+.brindair p strong {
+  color: red;
+}
+.brindair p a:hover {
+  font-size: 2.2rem;
+  color: green;
+}
+.brindair .roman {
+  margin: auto;
+  display: grid;
+  padding: 0 20px 0 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+}
+@media all and (max-width: 1024px) {
+  .brindair .roman {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+.brindair img {
+  width: 90%;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+.brindair img:active {
+  width: 200%;
+  z-index: 9;
 }
 
 .accroche_temoignage {
