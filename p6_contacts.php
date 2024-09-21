@@ -82,6 +82,7 @@
                             <li><img class="partenaire_logo" src="images/logo_ektc.png" alt="Logo EKTC" title="EKTC">Ecole de Kinésiologie et Techniques Complémentaires : <a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC"> EKTC</a></li>
                             <li><img class="partenaire_logo" src="images/logo.loup.webp" alt="Logo Pépites du Loup" title="Les Pépites du Loup" >Laboratoire d'Outils Utiles pour Parents : <a href="https://www.lespepitesduloup.fr/"  target="_blank" title="Lien vers le site Les Pépites du Loup"> Les Pépites du Loup</a></li>
                             <li><img class="partenaire_logo" src="images/logo_snk_150.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" >Syndicat National des Kinésiologues : <a href="https://www.snkinesio.fr/"  target="_blank" title="Lien vers le site SNK">SNK</a></li>
+                            <li><img class="partenaire_logo" src="images/brindair.png" alt="Logo Editions Brin d'Air" title="Editions Brin d'Air (Cécile Petitjean)" >Editions Brin d'Air (Cécile Petitjean) : <a href="https://www.editionsbrindair.com/"  target="_blank" title="Lien vers le site des éditions Brin d'Air">Brin d'Air</a></li>
                         </ul>
                     </div>
                     <?php include('calendrier.php'); ?>
