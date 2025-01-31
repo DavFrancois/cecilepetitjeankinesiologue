@@ -43,6 +43,7 @@
                         <h3>Créateur du site</h3>
                         <p><strong>DaF : David FRANCOIS</strong></p>
                         <p>Coordonnées : 35400 Saint-Malo<br />Email : dfrancois@yahoo.com</p>
+                        <p>Société : DaF<br /> Siret : 929 205 375 000 25<br>Code activité : 6201Z<br>Date immatriculation : 09-01-2025</p>
                         <h3>Hébergement</h3>
                         <p>L’hébergement de ce site est assuré par la société HOSTINGER INTERNATIONAL LTD, dont le siège social se situe 61 Lordou Vironos Street, 6023 Larnaca, Chypre, joignable par le moyen suivant : https://www.hostinger.fr/contact</p>
                         <h3>Propriété intellectuelle et contrefaçons.</h3>
