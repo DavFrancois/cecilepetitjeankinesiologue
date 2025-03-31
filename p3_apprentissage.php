@@ -33,7 +33,7 @@
                 
 				<article>
                     <div class="impair">
-                        <h2>L'aide aux apprentissages : Pour qui ? pourquoi ?</h2>
+                        <h2>Difficultées en lien avec les apprentissages</h2>
                         <figure class="figure_right_large2">
                             <img class="figure_photo" src="images/apprentissage2.png" alt="Aide aux apprentissages" title="Aide aux apprentissages - Cécile PETITJEAN"/>
                         </figure>
@@ -80,10 +80,7 @@
                     </div>
                     <div class="pair">
                         <h2>Mon accompagnement</h2>
-                        <ul>
-                            <li><p>Dans un premier temps, avec la kinésiologie, je peux aider votre enfant à <strong>gérer l’aspect émotionnel de ces situations</strong>, problématiques et même parfois douloureuses.</p><p>Nous chercherons d’où vient son attitude ou son blocage, selon les cas face aux apprentissages, à la vie en collectivité, aux règles scolaires et sociales ; ou d’où proviennent ses difficultés scolaires et pourquoi elles ne se règlent pas.</p><p>Et bien sûr nous chercherons à modifier ce qui l’empêche de réussir, afin de retrouver un état d’équilibre global, indispensable à la réussite dans les apprentissages.</p></li>
-                            <li><p>Je peux également dans un deuxième temps aider votre enfant en lui apportant <strong>un soutien scolaire concret et en l’accompagnant dans ses apprentissages</strong>.</p><p>Le but sera de lui redonner confiance et envie d’apprendre, lui montrer qu’il peut réussir, peut-être en travaillant autrement que comme il le fait à l’école, ou en lui donnant des « astuces » pour apprendre autrement.</p><p>Il ne s’agira pas de refaire ce qu’il a déjà fait à l’école de la même façon si ça n’a pas marché. Nous chercherons ensemble quelle méthode de travail lui convient pour l’amener à être en réussite sur les notions qu’il doit maitriser.</p><p>Il peut s’agir d’un <strong>soutien ponctuel, ou d’un soutien régulier</strong>, au cabinet ou à domicile.</p></li>
-                        </ul>
+                        <p>Avec la kinésiologie, je peux aider votre enfant à <strong>gérer l’aspect émotionnel</strong> de ces situations, problématiques et même parfois douloureuses.</p><p>Nous chercherons d’où vient son attitude ou son blocage, selon les cas face aux apprentissages, à la vie en collectivité, aux règles scolaires et sociales ; ou d’où proviennent ses difficultés scolaires et pourquoi elles ne se règlent pas.</p><p>Et bien sûr nous chercherons à modifier ce qui l’empêche de réussir, afin de retrouver un état d’équilibre global, indispensable à la réussite dans les apprentissages.</p>
                     </div>
                     <div class="impair">
                         <h2>Mes compétences par rapport aux apprentissages</h2>
