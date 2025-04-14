@@ -474,7 +474,7 @@ em {
   background-color: rgb(226, 226, 226);
 }
 .header_nav ul {
-  padding-right: 35%;
+  /*padding-right: 35%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
