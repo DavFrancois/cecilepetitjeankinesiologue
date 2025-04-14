@@ -8,11 +8,8 @@
 
 body {
     position: relative;
-    background: url("../images/coquelicot.png");
-    background-repeat: no-repeat;
-    background-position: 
-        top 380px right 10px; /*fleur*/
-    background-attachment: fixed;
+    background: url("../images/coquelicot.png") fixed no-repeat;
+    background-position: top 280px right 0px; /*fleur fixe*/
     background-color: $colour-bg;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: $colour-primary;
@@ -20,18 +17,14 @@ body {
     box-sizing: inherit;
     @media all and (max-width: 1024px) {
         background: url("../images/coquelicot_1024.png") fixed no-repeat;
-        background-position: top 350px right 10px; /*fleur fixe*/
+        background-position: top 250px right 10px; /*fleur fixe*/
         background-color: $colour-bg;
-    }
     @media all and (max-width: 680px) {
         background: url("../images/coquelicot_680.png") fixed no-repeat;
-        background-position: top 280px right 5px; /*fleur fixe*/
+        background-position: top 250px right 5px; /*fleur fixe*/
         background-color: $colour-bg;
     }
-    @media all and (max-width: 680px) {
-        background: url("../images/coquelicot_680.png") fixed no-repeat;
-        background-position: top 280px right 5px; /*fleur fixe*/
-        background-color: $colour-bg;
+
     }
     .gotoTop { /*permet de positionner le container nav sur tout le body*/
         z-index: 9999;  /*permet de positionner au-dessus de tous les autres élémnts*/

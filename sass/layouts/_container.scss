@@ -22,48 +22,6 @@
     }
 }
 
-.banniere_fermeture {
-    height: 150px;
-    width: 30%;
-    position:fixed;
-    background-image: url(../images/bon_secours_banniere.jpg);
-    background-size: cover;
-    background-color: rgba(240,240,240,255); /*si l'image ne charge pas*/
-    p {
-        padding-top: 10px;
-        color:$colour-white;
-        text-align: center;
-        font-family: arial, serif;
-        font-weight: 100;
-        font-size: 1.5rem;
-    }
-@media all and (max-width: 1024px) { 
-    height: 50px;
-        p {
-            padding-top: 15px;
-            font-size: 1.2rem; 
-        }
-    }
-
-    h3 { /*citations*/
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: courgette, fallinlove, serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        text-align: right;
-        color:$colour-third;
-        @media all and (max-width: 1024px) {
-            margin-top: 0px;
-            font-size: 1.1rem;
-        }
-        @media all and (max-width: 680px) {
-            margin-top: 0px;
-            font-size: 0.8rem;
-        }
-    }
-}
-
 .banniere-accueil {
     height: 350px;
     width: 100%;
@@ -72,39 +30,20 @@
     background-size: cover;
     background-color: rgba(240,240,240,255); /*si l'image ne charge pas*/
     p {
-        text-align: center ;
-        padding-top: 10%;
-        padding-right: 35%;
+        padding-top: 200px;
         color:$colour-white;
+        text-align: center;
         font-family: courgette, arial, serif;
         font-weight: 200;
         font-size: 4rem; 
     }
     @media all and (max-width: 1024px) { 
-        padding-top: 5px;
-        padding-right: 5%;
-        height: 180px;
-        p {
-            font-size: 2.5rem; 
-        }
-    @media all and (max-width: 830px) {
-        height: 150px;
-        padding-top: 5px;
-        padding-right: 5%;
-        margin-top: 0px;
-        p {
-            font-size: 2rem; 
-        }
-    }
-    }
-    @media all and (max-width: 500px) {
         height: 100px;
         p {
             padding-top: 50px;
             font-size: 1.3rem; 
         }
     }
-
 }
 .accroche {
     margin-top: 15px;

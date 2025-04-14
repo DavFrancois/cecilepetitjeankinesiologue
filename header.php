@@ -7,6 +7,4 @@
     </div>
     <img class="header_heading_image" src="images/fleurs3_70.png" alt="eclosion" title="eclosion coquelicots" id="coquelicot_entete"/>
     <a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Lien vers le calendrier de Cécile Petitjean Kinésiologue"> <img class="header_heading_calendrier" src="images/calendrier3_50.png" alt="Rendez-vous" title="Prendre rendez-vous"></a>
-    <img class="header_heading_postit" src="images/postit1.png" alt="fermeture" title="fermeture temporaire" id="postit_fermeture"/>
-
 </div>

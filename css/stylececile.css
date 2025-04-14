@@ -10,10 +10,8 @@
 
 body {
   position: relative;
-  background: url("../images/coquelicot.png");
-  background-repeat: no-repeat;
-  background-position: top 380px right 10px; /*fleur*/
-  background-attachment: fixed;
+  background: url("../images/coquelicot.png") fixed no-repeat;
+  background-position: top 280px right 0px; /*fleur fixe*/
   background-color: rgb(240, 240, 240);
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: rgb(5, 5, 5);
@@ -23,21 +21,14 @@ body {
 @media all and (max-width: 1024px) {
   body {
     background: url("../images/coquelicot_1024.png") fixed no-repeat;
-    background-position: top 350px right 10px; /*fleur fixe*/
+    background-position: top 250px right 10px; /*fleur fixe*/
     background-color: rgb(240, 240, 240);
   }
 }
-@media all and (max-width: 680px) {
+@media all and (max-width: 1024px) and (max-width: 680px) {
   body {
     background: url("../images/coquelicot_680.png") fixed no-repeat;
-    background-position: top 280px right 5px; /*fleur fixe*/
-    background-color: rgb(240, 240, 240);
-  }
-}
-@media all and (max-width: 680px) {
-  body {
-    background: url("../images/coquelicot_680.png") fixed no-repeat;
-    background-position: top 280px right 5px; /*fleur fixe*/
+    background-position: top 250px right 5px; /*fleur fixe*/
     background-color: rgb(240, 240, 240);
   }
 }
@@ -302,30 +293,26 @@ em {
   }*/
 }
 .header_heading {
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 2px;
   margin-bottom: 5px;
-  padding-left: 2%;
-  padding-right: 2%;
-  width: auto;
-  height: 130px;
 }
 @media all and (max-width: 1024px) {
   .header_heading {
-    height: 100px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
-@media all and (max-width: 830px) {
+@media all and (max-width: 680px) {
   .header_heading {
-    height: 60px;
-  }
-}
-@media all and (max-width: 500px) {
-  .header_heading {
-    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 .header_heading_image {
@@ -340,13 +327,7 @@ em {
     height: 85px;
   }
 }
-@media all and (max-width: 830px) {
-  .header_heading_image {
-    width: 60px;
-    height: 60px;
-  }
-}
-@media all and (max-width: 500px) {
+@media all and (max-width: 630px) {
   .header_heading_image {
     width: 45px;
     height: 45px;
@@ -362,14 +343,9 @@ em {
     width: 60px;
   }
 }
-@media all and (max-width: 830px) {
+@media all and (max-width: 630px) {
   .header_heading_calendrier {
-    width: 50px;
-  }
-}
-@media all and (max-width: 500px) {
-  .header_heading_calendrier {
-    width: 40px;
+    width: 45px;
   }
 }
 .header_heading_name {
@@ -378,44 +354,6 @@ em {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.header_heading_postit {
-  z-index: 1;
-  width: 38%;
-  margin-left: -38%;
-  position: relative;
-  right: -4%;
-  top: 180%;
-}
-@media all and (max-width: 1024px) {
-  .header_heading_postit {
-    width: 35%;
-    top: 150%;
-    right: -5%;
-  }
-  .header_heading_postit:active {
-    visibility: hidden;
-  }
-}
-@media all and (max-width: 830px) {
-  .header_heading_postit {
-    width: 35%;
-    top: 190%;
-    right: -4%;
-  }
-  .header_heading_postit:active {
-    visibility: hidden;
-  }
-}
-@media all and (max-width: 500px) {
-  .header_heading_postit {
-    width: 50%;
-    top: 130%;
-    right: -4%;
-  }
-  .header_heading_postit:active {
-    width: 60%;
-  }
 }
 .header h1 {
   font-family: "qwigley", serif, arial;
@@ -432,17 +370,10 @@ em {
     font-weight: 500;
   }
 }
-@media all and (max-width: 830px) {
+@media all and (max-width: 630px) {
   .header h1 {
     font-family: "qwigley", serif, arial;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-}
-@media all and (max-width: 500px) {
-  .header h1 {
-    font-family: "qwigley", serif, arial;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     font-weight: 500;
   }
 }
@@ -459,12 +390,7 @@ em {
     font-size: 1.5rem;
   }
 }
-@media all and (max-width: 830px) {
-  .header h2 {
-    font-size: 0.9rem;
-  }
-}
-@media all and (max-width: 500px) {
+@media all and (max-width: 630px) {
   .header h2 {
     font-size: 0.8rem;
   }
@@ -473,8 +399,13 @@ em {
 .header_nav {
   background-color: rgb(226, 226, 226);
 }
+@media all and (max-width: 1024px) {
+  .header_nav {
+    /*width: 150px;
+    margin-right: 0px;*/
+  }
+}
 .header_nav ul {
-  padding-right: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -482,11 +413,9 @@ em {
   flex-wrap: wrap;
   list-style-type: none;
   font-family: serif;
-}
-@media all and (max-width: 500px) {
-  .header_nav ul {
-    padding-right: 35%;
-  }
+  /*@media all and (max-width: 1024px) {
+      flex-direction: column;
+  }*/
 }
 .header_nav a {
   padding: 0 25px 10px 20px;
@@ -571,7 +500,6 @@ em {
   position: relative;
 }
 .section_nav .vignette .image {
-  z-index: 3;
   width: 150px;
   height: 150px;
   box-shadow: 0px 4px 4px rgb(75, 83, 84);
@@ -700,7 +628,7 @@ em {
   padding: 15px 10px 5px 15px;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: left;
   border-radius: 15px;
   font-size: 1em;
   font-weight: 600;
@@ -810,53 +738,6 @@ em {
   }
 }
 
-.banniere_fermeture {
-  height: 150px;
-  width: 30%;
-  position: fixed;
-  background-image: url(../images/bon_secours_banniere.jpg);
-  background-size: cover;
-  background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
-}
-.banniere_fermeture p {
-  padding-top: 10px;
-  color: #fff;
-  text-align: center;
-  font-family: arial, serif;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-@media all and (max-width: 1024px) {
-  .banniere_fermeture {
-    height: 50px;
-  }
-  .banniere_fermeture p {
-    padding-top: 15px;
-    font-size: 1.2rem;
-  }
-}
-.banniere_fermeture h3 { /*citations*/
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: courgette, fallinlove, serif;
-  font-weight: 400;
-  font-size: 1.7rem;
-  text-align: right;
-  color: rgb(238, 63, 40);
-}
-@media all and (max-width: 1024px) {
-  .banniere_fermeture h3 {
-    margin-top: 0px;
-    font-size: 1.1rem;
-  }
-}
-@media all and (max-width: 680px) {
-  .banniere_fermeture h3 {
-    margin-top: 0px;
-    font-size: 0.8rem;
-  }
-}
-
 .banniere-accueil {
   height: 350px;
   width: 100%;
@@ -866,36 +747,14 @@ em {
   background-color: rgb(240, 240, 240); /*si l'image ne charge pas*/
 }
 .banniere-accueil p {
-  text-align: center;
-  padding-top: 10%;
-  padding-right: 35%;
+  padding-top: 200px;
   color: #fff;
+  text-align: center;
   font-family: courgette, arial, serif;
   font-weight: 200;
   font-size: 4rem;
 }
 @media all and (max-width: 1024px) {
-  .banniere-accueil {
-    padding-top: 5px;
-    padding-right: 5%;
-    height: 180px;
-  }
-  .banniere-accueil p {
-    font-size: 2.5rem;
-  }
-}
-@media all and (max-width: 1024px) and (max-width: 830px) {
-  .banniere-accueil {
-    height: 150px;
-    padding-top: 5px;
-    padding-right: 5%;
-    margin-top: 0px;
-  }
-  .banniere-accueil p {
-    font-size: 2rem;
-  }
-}
-@media all and (max-width: 500px) {
   .banniere-accueil {
     height: 100px;
   }
@@ -1721,7 +1580,9 @@ article .partenaires li {
 }
 
 .actualités {
-  margin: 20px 150px 0 50px;
+  /*width: 80%;*/
+  margin-left: 70px;
+  margin-right: 200px;
   align-items: center;
 }
 @media all and (max-width: 1024px) {
@@ -1735,76 +1596,6 @@ article .partenaires li {
     margin-left: 10px;
     margin-right: 50px;
   }
-}
-
-.brindair {
-  width: 100%;
-  margin: 20px 0 20px 0;
-  padding: 20px 20px 20px 20px;
-  border-radius: 25px;
-  display: flex;
-  text-align: center;
-  background-color: rgb(235, 165, 165);
-}
-@media all and (max-width: 1024px) {
-  .brindair {
-    padding: 10px 10px 10px 10px;
-  }
-}
-.brindair p {
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-}
-@media all and (max-width: 1024px) {
-  .brindair p {
-    font-size: 1.5rem;
-  }
-}
-@media all and (max-width: 680px) {
-  .brindair p {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-}
-@media all and (max-width: 600px) {
-  .brindair p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
-}
-.brindair p strong {
-  color: red;
-}
-.brindair p a:hover {
-  font-size: 2.2rem;
-  color: green;
-}
-.brindair .roman {
-  margin: auto;
-  display: grid;
-  padding: 0 20px 0 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  align-items: center;
-}
-@media all and (max-width: 1024px) {
-  .brindair .roman {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-  }
-}
-.brindair .qr_code {
-  width: 70%;
-  padding-bottom: 20px;
-}
-.brindair img {
-  width: 90%;
-  margin-top: 5px;
-  /*border-radius: 15px;*/
-}
-.brindair img:active {
-  width: 200%;
-  z-index: 9;
 }
 
 .accroche_temoignage {
