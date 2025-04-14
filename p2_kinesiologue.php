@@ -30,6 +30,7 @@
             <div class="banniere"> <!--Bannière-->
                 <p>Il n'est jamais trop tard pour éclore !</p>
             </div>
+            
             <section>
                 <?php @include('section_nav.php'); ?> <!-- bandeau lateral de navigation -->
 
