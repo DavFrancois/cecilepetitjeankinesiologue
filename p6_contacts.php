@@ -34,21 +34,22 @@
                 <article>
                     <div class="impair">
                         <h2>Coordonnées</h2>
-                        <p>Cécile Petitjean <strong>Kinésiologue</strong>.</p>
+                        <p>Cécile Petitjean Kinésiologue</></p>
                         <ul>
                             <li>Mobile : <em>06 40 08 13 82</em></li>
                             <li>Email : <a href="mailto:cecilepetitjeankinesiologue@gmail.com" title="Envoyer un email à cecilepetitjeankinesiologue@gmail.com">cecilepetitjeankinesiologue@gmail.com</a></li>
-                            <li>Adresse : Centre des Pépites du Loup (Laboratoire d'Outils Utiles pour Parents)<ul><li>1 rue des Mauriers - 35400 Saint-Malo</li></ul>
+                            <li>Adresse : <strong>2, rue de l'Abbé Huchet 35400 Saint-Malo</strong><ul><li>2ème étage - Accès PMR</li><li>Bus ligne 2 - Arrêt "Rocabey"</li><li>A 5 min à pied de la gare de Saint-Malo</li><li>Parking gratuit à proximité de l'église de Rocabey</li></ul>
                         </ul>
                         <div class="localisation">
                             <div class="localisation__lieu">
-                                <h5>Les Pépites du Loup</h5>
-                                <p>1, rue des Mauriers 35400 Saint-Malo</p>
+                                <!--<h5>Cécile Petitjean Kinésiologue</h5>
+                                <p>2, rue de l'Abbé Huchet 35400 Saint-Malo</p>
+                                <p>2ème étage (Accès PMR)</p>-->
                                 <iframe title="Localisation Cécile Petitjean Kinésiologie Saint-Malo" alt="localisation Cécile Petitjean Kinésiologie Saint-Malo"
                                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84364.74722952356!2d-2.0847406802409076!3d48.64049417005871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e83f5b78e3fdf%3A0x85f1ede67cb68c14!2sCentre%20de%20formation%20Les%20p%C3%A9pites%20du%20loup!5e0!3m2!1sfr!2sfr!4v1681405812615!5m2!1sfr!2sfr"></iframe>
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21223.297533029945!2d-2.0210898889156375!3d48.64926335213233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e817013fa397d%3A0xa0124a153a7cc098!2s2%20Rue%20Abbe%20Huchet%2C%2035400%20Saint-Malo!5e0!3m2!1sfr!2sfr!4v1747064939696!5m2!1sfr!2sfr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <div class="localisation__photos">
+                            <!--<div class="localisation__photos">
                                 <figure class="figure_right_large2">
                                     <img class="figure_photo" src="images/batLPDL.jpg" alt="Les Pépites du Loup" title="Les Pépites du Loup"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
@@ -57,13 +58,13 @@
                                     <img class="figure_photo" src="images/cabinet3.jpg" alt="Cabinet Cecile Francois Kinésiologue" title="Cabinet Cecile Francois Kinésiologue"/>
                                     <figcaption>&copy; Cécile Petitjean Kinésiologue</figcaption>
                                 </figure>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <div class="pair">
                         <h2>Horaires des consultations</h2>
                         <ul>
-                            <li>Au cabinet du Centre des Pépites du Loup à Saint-Malo : <strong>lundi, mardi, mercredi et samedi de 9h à 19h30</strong><br /><a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
+                            <li>Au cabinet à Saint-Malo : <strong>Du lundi au samedi de 9h à 19h</strong><br /><a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
                         </ul>
                         <p>Les horaires peuvent varier selon les vacances et les jours fériés. N'hésitez pas à me consulter en cas de doute ou de difficulté afin d'essayer de trouver une solution.</p>
                     </div>
