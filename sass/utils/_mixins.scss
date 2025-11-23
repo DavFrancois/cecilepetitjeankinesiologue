@@ -12,19 +12,33 @@
 @mixin calendrier($size_calendrier) {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
+    margin: 10px 0 0 20px;
+    width: 70%;
+    padding: 5px 10px 10px 10px;
     font-size: $size_calendrier;
-    color: $colour-secondary;
-    justify-content: center;
+    background-color: rgba(172, 170, 170, 0.882);
     border-radius: 10px;
-
+    @media all and (max-width: 1024px) {
+        width: 80%;
+        }
+    p{
+        color: $colour-bggrey;
+        margin-right: 1rem;
+        @media all and (max-width: 1024px) {
+            margin-right: 0.5rem;
+        }
+    }
     &:hover {
-        background: rgba(172, 170, 170, 0.882);
+        background: $colour-activ;
     }
     img {
-        margin-left: 3rem;
+        margin-left: 2rem;
         width: 70px;
+        @media all and (max-width: 1024px) {
+            margin-left: 0.5rem;
+        }
     }
 }
 

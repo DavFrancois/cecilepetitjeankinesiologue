@@ -699,19 +699,40 @@ em {
 .calendrier {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 1rem;
+  margin: 10px 0 0 20px;
+  width: 70%;
+  padding: 5px 10px 10px 10px;
   font-size: 1rem;
-  color: green;
-  justify-content: center;
+  background-color: rgba(172, 170, 170, 0.882);
   border-radius: 10px;
 }
+@media all and (max-width: 1024px) {
+  .calendrier {
+    width: 80%;
+  }
+}
+.calendrier p {
+  color: rgb(226, 226, 226);
+  margin-right: 1rem;
+}
+@media all and (max-width: 1024px) {
+  .calendrier p {
+    margin-right: 0.5rem;
+  }
+}
 .calendrier:hover {
-  background: rgba(172, 170, 170, 0.882);
+  background: rgb(153, 187, 153);
 }
 .calendrier img {
-  margin-left: 3rem;
+  margin-left: 2rem;
   width: 70px;
+}
+@media all and (max-width: 1024px) {
+  .calendrier img {
+    margin-left: 0.5rem;
+  }
 }
 
 .banniere {
@@ -1588,10 +1609,10 @@ article .partenaires li {
   }
 }
 .actualités .extraits_insta {
-  margin: 30px 100px 30px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  margin: 30px 100px 30px 50px;
 }
 @media all and (max-width: 1024px) {
   .actualités .extraits_insta {
@@ -1690,7 +1711,7 @@ article .partenaires li {
 }
 @media all and (max-width: 680px) {
   .calendrier p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: red;
     text-decoration: none;
   }
@@ -1700,7 +1721,7 @@ article .partenaires li {
   }
   .calendrier img {
     margin: -1px;
-    width: 2rem;
+    width: 3rem;
   }
 }
 

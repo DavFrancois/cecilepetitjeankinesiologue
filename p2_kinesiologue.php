@@ -33,7 +33,6 @@
             
             <section>
                 <?php @include('section_nav.php'); ?> <!-- bandeau lateral de navigation -->
-
 				<article>
                     <div class="impair">
                         <h2>La kinésiologie, c'est quoi ?</h2>
@@ -94,7 +93,6 @@
                         <h3>« Vous êtes maître de votre vie et qu’importe votre prison,<br />vous en avez les clefs »  Dalaï Lama</h3>
                     </div>
                     <?php include('calendrier.php'); ?>
-
                 </article>
             </section>
             <?php include('footer.php'); ?>
