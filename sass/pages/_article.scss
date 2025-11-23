@@ -368,10 +368,6 @@ article {
 }
 
 .actualités {
-    /*width: 80%;*/
-    margin-left: 70px;
-    margin-right: 200px;
-    align-items: center;
     @media all and (max-width: 1024px) {
         margin-left: 40px;
         margin-right: 100px;
@@ -379,6 +375,17 @@ article {
     @media all and (max-width: 680px) {
         margin-left: 10px;
         margin-right: 50px;
+    }
+    .extraits_insta {
+        margin: 30px 100px 30px 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        @media all and (max-width: 1024px) {
+            margin: 30px 50px 30px 20px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:10px;
+        }
     }
 }
 

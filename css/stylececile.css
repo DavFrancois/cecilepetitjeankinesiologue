@@ -188,6 +188,7 @@ em {
   position: relative;
   top: 20px;
   right: -50px;
+  align-items: center;
 }
 .btn2:hover {
   background: green;
@@ -1038,17 +1039,15 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*@media all and (max-width: 1024px) {
+      width: 90%;
+      margin: 0px 70px 20px 0px;
+  }*/
 }
-@media all and (max-width: 1024px) {
-  article {
-    width: 90%;
-    margin: 0px 70px 20px 0px;
-  }
-}
-@media all and (max-width: 680px) {
+@media all and (max-width: 10240px) {
   article {
     width: 95%;
-    margin: 0px 40px 20px 10px;
+    margin: 0px 40px 20px 15px;
   }
 }
 article .accueil {
@@ -1070,13 +1069,11 @@ article .impair {
   margin-right: 170px;
   border-radius: 20px;
   background-color: rgb(194, 212, 200);
+  /*@media all and (max-width: 1024px) {
+      margin-right: 70px;
+  }*/
 }
 @media all and (max-width: 1024px) {
-  article .impair {
-    margin-right: 70px;
-  }
-}
-@media all and (max-width: 680px) {
   article .impair {
     margin: 10px 0 0 0;
     padding: 0px 20px 20px 10px;
@@ -1088,13 +1085,11 @@ article .pair {
   margin-top: 20px;
   margin-left: 120px;
   background-color: rgb(186, 208, 212);
+  /*@media all and (max-width: 1024px) {
+      margin-left: 70px;
+  }*/
 }
 @media all and (max-width: 1024px) {
-  article .pair {
-    margin-left: 70px;
-  }
-}
-@media all and (max-width: 680px) {
   article .pair {
     margin: 10px 0 0 0;
     padding: 0px 20px 20px 10px;
@@ -1580,12 +1575,6 @@ article .partenaires li {
   }
 }
 
-.actualités {
-  /*width: 80%;*/
-  margin-left: 70px;
-  margin-right: 200px;
-  align-items: center;
-}
 @media all and (max-width: 1024px) {
   .actualités {
     margin-left: 40px;
@@ -1596,6 +1585,19 @@ article .partenaires li {
   .actualités {
     margin-left: 10px;
     margin-right: 50px;
+  }
+}
+.actualités .extraits_insta {
+  margin: 30px 100px 30px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+@media all and (max-width: 1024px) {
+  .actualités .extraits_insta {
+    margin: 30px 50px 30px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
 }
 

@@ -9,6 +9,7 @@
     @include btn2 (5px 20px 5px 20px);
     position:relative;
     top: 20px; right: -50px;
+    align-items: center;
     @media all and (max-width: 1200px) {
         display: flex;
         flex-direction: column;
