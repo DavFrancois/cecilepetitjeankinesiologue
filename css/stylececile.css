@@ -406,6 +406,7 @@ em {
   }
 }
 .header_nav ul {
+  /*A utiliser si post it à ajouter / padding-right: 35%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -413,8 +414,8 @@ em {
   flex-wrap: wrap;
   list-style-type: none;
   font-family: serif;
-  /*@media all and (max-width: 1024px) {
-      flex-direction: column;
+  /*@media all and (max-width: 500px) {
+      padding-right: 35%;
   }*/
 }
 .header_nav a {
@@ -1402,7 +1403,7 @@ article li {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 @media all and (max-width: 1024px) {
   article li {

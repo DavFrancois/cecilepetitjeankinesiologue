@@ -5,6 +5,7 @@
         margin-right: 0px;*/
     }
     ul {
+        /*A utiliser si post it à ajouter / padding-right: 35%;*/
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -12,8 +13,8 @@
         flex-wrap: wrap;
         list-style-type: none;
         font-family: serif;
-        /*@media all and (max-width: 1024px) {
-            flex-direction: column;
+        /*@media all and (max-width: 500px) {
+            padding-right: 35%;
         }*/
     }
     & a {
