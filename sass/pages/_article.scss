@@ -9,13 +9,13 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media all and (max-width: 1024px) {
+    /*@media all and (max-width: 1024px) {
         width: 90%;
         margin: 0px 70px 20px 0px;
-    }
-    @media all and (max-width: 680px) {
+    }*/
+    @media all and (max-width: 10240px) {
         width: 95%;
-        margin: 0px 40px 20px 10px;
+        margin: 0px 40px 20px 15px;
     }
     .accueil {
         margin-left: 10%;
@@ -32,10 +32,10 @@ article {
         margin-right: 170px;
         border-radius: 20px;
         background-color: rgb(194, 212, 200);
-        @media all and (max-width: 1024px) {
+        /*@media all and (max-width: 1024px) {
             margin-right: 70px;
-        }
-        @media all and (max-width: 680px) {
+        }*/
+        @media all and (max-width: 1024px) {
             margin: 10px 0 0 0;
             padding: 0px 20px 20px 10px;
         }
@@ -46,10 +46,10 @@ article {
         margin-top: 20px;
         margin-left: 120px;
         background-color: rgb(186, 208, 212);
-        @media all and (max-width: 1024px) {
+        /*@media all and (max-width: 1024px) {
             margin-left: 70px;
-        }
-        @media all and (max-width: 680px) {
+        }*/
+        @media all and (max-width: 1024px) {
             margin: 10px 0 0 0;
             padding: 0px 20px 20px 10px;
         }

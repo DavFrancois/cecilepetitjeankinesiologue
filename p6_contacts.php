@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head> <!-- Entête de la page -->
         <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XVJRDS582"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4XVJRDS582'); </script>
-		<title>Cécile PETITJEAN - Kinésiologue - Contacts, tarifs</title>
+		<title>Cécile PETITJEAN - Kinésiologue - Contacts, tarif</title>
         <meta name="description" content="Kinésiologie et aide aux apprentissages sur Saint-Malo, tous les jours sur rdv. Contacts et tarifs. Plan d'accés. Réservation en ligne.">
 
         <?php include('meta.php'); ?>
@@ -19,7 +19,7 @@
                     <li><a href="p3_apprentissage.php" title="L'aide aux apprentissages">Apprentissages</a></li>
                     <li><a href="p4_qui.php" title="Qui suis-je ?">Qui suis-je ?</a></li>
                     <li><a href="p5_sceance.php" title="Comment se déroule une séance de kinésiologie ?">Séance</a></li>
-                    <li class="header_nav-active"><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarifs</a></li>
+                    <li class="header_nav-active"><a href="p6_contacts.php" title="Informations pratiques">Contacts, Tarif</a></li>
                 </ul>
             </nav>
         </header>    
@@ -69,9 +69,9 @@
                         <p>Les horaires peuvent varier selon les vacances et les jours fériés. N'hésitez pas à me consulter en cas de doute ou de difficulté afin d'essayer de trouver une solution.</p>
                     </div>
                     <div class="impair">
-                        <h2>Tarifs*</h2>
+                        <h2>Tarif*</h2>
                         <ul>
-                            <li>KINESIOLOGIE séance adulte ou enfant : 60 €</li>
+                            <li>KINESIOLOGIE séance adulte ou enfant : 60 € (changement de tarif au 1er janvier 2026 : 65 €)</li>
                         </ul>
                         <p>Remboursement possible selon les mutuelles au titre des forfaits prévention, mieux être ou médecine douce.</p>
                         <p>Durée d'une séance : environ <strong>1h15</strong></p>
@@ -81,7 +81,6 @@
                         <h2>Autres liens et partenaires</h2>
                         <ul class="partenaires">
                             <li><img class="partenaire_logo" src="images/logo_ektc.png" alt="Logo EKTC" title="EKTC">Ecole de Kinésiologie et Techniques Complémentaires : <a href="https://www.ecole-kinesiologie.fr/"  target="_blank" title="Lien vers le site de l'EKTC"> EKTC</a></li>
-                            <li><img class="partenaire_logo" src="images/logo.loup.webp" alt="Logo Pépites du Loup" title="Les Pépites du Loup" >Laboratoire d'Outils Utiles pour Parents : <a href="https://www.lespepitesduloup.fr/"  target="_blank" title="Lien vers le site Les Pépites du Loup"> Les Pépites du Loup</a></li>
                             <li><img class="partenaire_logo" src="images/logo_snk_150.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" >Syndicat National des Kinésiologues : <a href="https://www.snkinesio.fr/"  target="_blank" title="Lien vers le site SNK">SNK</a></li>
                         </ul>
                     </div>
