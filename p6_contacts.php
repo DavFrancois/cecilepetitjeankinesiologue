@@ -71,7 +71,7 @@
                     <div class="impair">
                         <h2>Tarif*</h2>
                         <ul>
-                            <li>KINESIOLOGIE séance adulte ou enfant : 60 € (changement de tarif au 1er janvier 2026 : 65 €)</li>
+                            <li>KINESIOLOGIE séance adulte ou enfant : 65 €</li>
                         </ul>
                         <p>Remboursement possible selon les mutuelles au titre des forfaits prévention, mieux être ou médecine douce.</p>
                         <p>Durée d'une séance : environ <strong>1h15</strong></p>
