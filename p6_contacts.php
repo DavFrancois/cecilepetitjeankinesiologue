@@ -64,9 +64,10 @@
                     <div class="pair">
                         <h2>Horaires des consultations</h2>
                         <p>Au cabinet à Saint-Malo : <strong>Du lundi au samedi de 9h à 19h</strong></p>
+                        <!--message d'ABSENCE a reactiver si besoin
                         <br />
                         <h3>Le cabinet sera <strong>fermé </strong>du <strong>29 juin au 20 juillet 2026</strong>.<br />Mais vous pouvez prendre rendez-vous en ligne (uniquement) pour mon retour !
-                        </h3>
+                        </h3> -->
                         <p>Les horaires peuvent varier selon les vacances et les jours fériés. N'hésitez pas à me consulter en cas de doute ou de difficulté afin d'essayer de trouver une solution.</p><br />
                         <a href="https://cecilepetitjeankinesiologue.simplybook.it/v2/" target="_blank" title="Prendre rendez-vous en ligne">Prendre Rendez-vous</a></h3>
                     </div>
