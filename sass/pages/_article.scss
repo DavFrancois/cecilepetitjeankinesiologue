@@ -375,12 +375,13 @@ article {
     @media all and (max-width: 680px) {
         margin-left: 10px;
         margin-right: 50px;
-    }
+}
     .extraits_insta {
+        width: 85%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
-        margin: 30px 100px 30px 50px;
+        grid-gap: 20px;
+        margin: 20px 10px 20px 5px;
         @media all and (max-width: 1024px) {
             margin: 30px 50px 30px 20px;
             grid-template-columns: repeat(1, 1fr);
