@@ -1686,7 +1686,7 @@ article .partenaires li {
 }
 @media all and (max-width: 1024px) {
   .calendrier p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: red;
     text-decoration: none;
   }
@@ -1696,12 +1696,12 @@ article .partenaires li {
   }
   .calendrier img {
     margin: -1px;
-    width: 3.6rem;
+    width: 3.2rem;
   }
 }
 @media all and (max-width: 680px) {
   .calendrier p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: red;
     text-decoration: none;
   }
@@ -1711,7 +1711,7 @@ article .partenaires li {
   }
   .calendrier img {
     margin: -1px;
-    width: 3rem;
+    width: 2.4rem;
   }
 }
 

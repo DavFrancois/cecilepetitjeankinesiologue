@@ -442,10 +442,10 @@ article {
 .calendrier {
     @include rendez_vous (2rem);
     @media all and (max-width: 1024px) {
-        @include rendez_vous (1.8rem);
+        @include rendez_vous (1.6rem);
     }
     @media all and (max-width: 680px) {
-            @include rendez_vous (1.5rem);
+            @include rendez_vous (1.2rem);
     }
 }
 
