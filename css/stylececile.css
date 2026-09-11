@@ -864,6 +864,44 @@ footer .heading {
   flex-wrap: wrap;
   margin-left: 60px;
   margin-right: 20px;
+  /*.snk {
+      margin-top: 5px;
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      @media all and (max-width: 1024px) {
+          width: 130px;
+      }
+      @media all and (max-width: 730px) {
+          width: 100px;
+      }
+      p {
+          font-size: 0.8rem;
+          text-align: right;
+          vertical-align: middle;
+          @media all and (max-width: 1024px) {
+              font-size: 0.6rem;
+          }
+          @media all and (max-width: 730px) {
+              display:none;
+          }
+      }
+      img {
+          height: 35px;
+          width: 112px;
+          margin-left: 10px;
+          float: right;
+          @media all and (max-width: 1024px) {
+              height: 25px;
+              width: 80px;
+          }
+          @media all and (max-width: 7300px) {
+              height: 18px;
+              width: 56px;
+          }
+      }
+  }*/
 }
 @media all and (max-width: 1100px) {
   footer .heading {
@@ -908,18 +946,18 @@ footer .heading .cecile_footer {
 }
 footer .heading h2 {
   font-family: serif, arial;
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 500;
+  vertical-align: middle;
 }
 @media all and (max-width: 1024px) {
   footer .heading h2 {
-    padding-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 @media all and (max-width: 730px) {
   footer .heading h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 footer .heading .btn {
@@ -943,6 +981,7 @@ footer .heading .reseaux img {
   width: 40px;
   margin: 10px;
   vertical-align: middle;
+  align-content: center;
 }
 @media all and (max-width: 1024px) {
   footer .heading .reseaux img {
@@ -954,56 +993,6 @@ footer .heading .reseaux img {
 @media all and (max-width: 730px) {
   footer .heading .reseaux img {
     margin: 0;
-  }
-}
-footer .heading .snk {
-  margin-top: 5px;
-  width: 300px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-@media all and (max-width: 1024px) {
-  footer .heading .snk {
-    width: 130px;
-  }
-}
-@media all and (max-width: 730px) {
-  footer .heading .snk {
-    width: 100px;
-  }
-}
-footer .heading .snk p {
-  font-size: 0.8rem;
-  text-align: right;
-  vertical-align: middle;
-}
-@media all and (max-width: 1024px) {
-  footer .heading .snk p {
-    font-size: 0.6rem;
-  }
-}
-@media all and (max-width: 730px) {
-  footer .heading .snk p {
-    display: none;
-  }
-}
-footer .heading .snk img {
-  height: 35px;
-  width: 112px;
-  margin-left: 10px;
-  float: right;
-}
-@media all and (max-width: 1024px) {
-  footer .heading .snk img {
-    height: 25px;
-    width: 80px;
-  }
-}
-@media all and (max-width: 7300px) {
-  footer .heading .snk img {
-    height: 18px;
-    width: 56px;
   }
 }
 footer .mentions {

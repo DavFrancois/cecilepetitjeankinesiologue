@@ -19,6 +19,6 @@
     <div class="mentions">
         <a href="p100_mentions.php">Mentions légales</a>
         <!--<a href="p100_mentions.php">Politique des cookies</a>-->
-        <p>Cécile Petitjean Kinésiologue - Tous droits réservés - Site créé par DaF - 2021</p>
+        <p>Cécile Petitjean Kinésiologue - Tous droits réservés - Site créé par DaF - 2023</p>
     </div>
 </footer>
