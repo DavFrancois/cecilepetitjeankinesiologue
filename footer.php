@@ -11,14 +11,14 @@
             " target="_blank"> <img src="images/logo_linkedin_50.png" alt="Linkedin Cécile Petitjean Kinésiologue" title="Lien vers Linkedin Cécile Petitjean"></a>
             <a href="https://www.facebook.com/profile.php?id=100086799493507" target="_blank"><img src="images/logo_facebook50.png" alt="Facebook Cécile Petitjean Kinésiologue" title="Lien vers Facebook Cécile Petitjean Kinésiologue"></a>
         </div>
-        <div class="snk">
+        <!--<div class="snk">
             <p>Adhérente au</br>Syndicat National des Kinésiologues</p>
             <a href="https://www.snkinesio.fr/" target="_blank"><img src="images/logo_snk_150.png" alt="Logo SNK" title="Syndicat National des Kinésiologues" ></a>
-        </div>
+        </div>-->
     </div>
     <div class="mentions">
         <a href="p100_mentions.php">Mentions légales</a>
         <!--<a href="p100_mentions.php">Politique des cookies</a>-->
-        <p>Cécile Petitjean Kinésiologue - Tous droits réservés - Site créé par DaF - 2023</p>
+        <p>Cécile Petitjean Kinésiologue - Tous droits réservés - Site créé par DaF - 2021</p>
     </div>
 </footer>
